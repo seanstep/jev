@@ -1,0 +1,93 @@
+{
+  "completed_at": "2026-09-22T21:58:49.800531+08:00",
+  "source": "https://github.com/jaredpalmer/kev",
+  "commit": "90990a5fac2995b9faa3190f7d437e84f2067768",
+  "model": "Kev-4B (Qwen3.5-4B-Base)",
+  "gpu": 0,
+  "dtype": "bf16",
+  "api": "http://127.0.0.1:8009",
+  "web": "http://127.0.0.1:3001",
+  "services": [
+    "kev-api.service",
+    "kev-web.service"
+  ],
+  "mirrors": {
+    "python": "https://pypi.tuna.tsinghua.edu.cn/simple",
+    "npm": "https://registry.npmmirror.com",
+    "base": "https://modelscope.cn",
+    "adapter": "https://ghfast.top"
+  },
+  "proxy_used_for_downloads": false,
+  "unit_tests": "100 passed, 1 deselected (requires unavailable Hugging Face training dataset)",
+  "api_tests": "7 passed",
+  "browser_check": "PASS: page hydrated; preset click updates the state\nPASS: browser → Next.js proxy → GPU API → rendered answer business\nPASS: no page errors\n",
+  "smoke_response": {
+    "model": "kev-latest",
+    "answers": {
+      "department": {
+        "type": "choice",
+        "choice": "billing",
+        "confidence": 0.97,
+        "probabilities": {
+          "billing": 0.98,
+          "shipping": 0.01,
+          "returns": 0.01
+        }
+      },
+      "billing": {
+        "type": "noul",
+        "noul": 0.96
+      },
+      "urgency": {
+        "type": "score",
+        "score": 1.96,
+        "legend": {
+          "0": "can wait",
+          "1": "this week",
+          "2": "today"
+        },
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.03,
+          "2": 0.97
+        },
+        "confidence": 0.98
+      }
+    },
+    "usage": {
+      "input_tokens": 80,
+      "output_tokens": 157
+    },
+    "latency_ms": 106.7
+  },
+  "known_dependency_override": "Upstream modal_app.py requires Triton >=3.7.1, overriding Torch 2.8 pin to Triton 3.4.0; actual GPU tests passed.",
+  "browser_response": {
+    "model": "kev-latest",
+    "answers": {
+      "topic": {
+        "type": "choice",
+        "choice": "business",
+        "confidence": 0.96,
+        "probabilities": {
+          "world": 0.01,
+          "sports": 0,
+          "business": 0.97,
+          "scitech": 0.01
+        }
+      },
+      "is_sports": {
+        "type": "noul",
+        "noul": 0.01
+      },
+      "is_business": {
+        "type": "noul",
+        "noul": 0.96
+      }
+    },
+    "usage": {
+      "input_tokens": 135,
+      "output_tokens": 107
+    },
+    "latency_ms": 95.8
+  }
+}

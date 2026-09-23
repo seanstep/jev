@@ -96,6 +96,7 @@ export function Playground() {
       <header className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1">
         <nav className="flex items-baseline gap-4 text-[15px]">
           <h1 className="font-medium tracking-tight">kev</h1>
+          <Link href="/vla" className="text-muted-foreground hover:text-foreground">VLA research</Link>
           <Link href="/chess" className="text-muted-foreground hover:text-foreground">chess</Link>
         </nav>
         <p className="text-[13px] text-muted-foreground">

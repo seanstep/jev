@@ -1,0 +1,4787 @@
+[
+  {
+    "id": "vla_github_experience_v1/test/00180",
+    "group": "vla_github_experience_v1/lerobot_missing_contract/00180",
+    "question": "research_stage",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "data_contract",
+      "finetune",
+      "benchmark",
+      "real_robot",
+      "deployment",
+      "failure_analysis",
+      "cross_embodiment"
+    ],
+    "label": 0,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00180",
+    "p": [
+      0.9999999989496628,
+      6.938190015222178e-10,
+      1.9234934458326032e-10,
+      4.789807781478479e-11,
+      2.0193121459284428e-11,
+      9.67500384346439e-13,
+      9.511019739563152e-11
+    ],
+    "raw_probability_sum": 1.0000000010503372,
+    "zero_count": 0,
+    "logits": [
+      14.012123107910156,
+      -7.076687812805176,
+      -8.35958480834961,
+      -9.749822616577148,
+      -10.613555908203125,
+      -13.651937484741211,
+      -9.063862800598145
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00180",
+    "group": "vla_github_experience_v1/lerobot_missing_contract/00180",
+    "question": "data_format",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "rlds",
+      "lerobot",
+      "native",
+      "manifest"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00180",
+    "p": [
+      3.243305948296461e-05,
+      0.9999647708581728,
+      3.0563787194396044e-07,
+      2.4904444722423652e-06
+    ],
+    "raw_probability_sum": 0.9999999431901188,
+    "zero_count": 0,
+    "logits": [
+      4.427019119262695,
+      14.76331615447998,
+      -0.23751318454742432,
+      1.8603020906448364
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00180",
+    "group": "vla_github_experience_v1/lerobot_missing_contract/00180",
+    "question": "split_protocol",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "episode_disjoint",
+      "task_disjoint",
+      "language_disjoint",
+      "embodiment_disjoint",
+      "libero_90_10",
+      "clean_random"
+    ],
+    "label": 0,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00180",
+    "p": [
+      0.9999943560015417,
+      1.6053118564254828e-06,
+      1.8549767819850904e-06,
+      1.5831624781175704e-07,
+      1.4716482004549742e-06,
+      5.537453716337842e-07
+    ],
+    "raw_probability_sum": 1.0000000411620817,
+    "zero_count": 0,
+    "logits": [
+      5.026169776916504,
+      -8.316017150878906,
+      -8.171463012695312,
+      -10.632495880126953,
+      -8.402952194213867,
+      -9.380385398864746
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00180",
+    "group": "vla_github_experience_v1/lerobot_missing_contract/00180",
+    "question": "normalization",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "recompute",
+      "reuse",
+      "compare",
+      "audit"
+    ],
+    "label": 3,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00180",
+    "p": [
+      4.377242211076073e-10,
+      1.0728058809368109e-10,
+      1.2478187025379578e-06,
+      0.9999987516362926
+    ],
+    "raw_probability_sum": 1.0000000562708822,
+    "zero_count": 0,
+    "logits": [
+      -12.483745574951172,
+      -13.889886856079102,
+      -4.528426647186279,
+      9.065685272216797
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00180",
+    "group": "vla_github_experience_v1/lerobot_missing_contract/00180",
+    "question": "evidence",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "manifest",
+      "per_task",
+      "learning_curve",
+      "normalization",
+      "latency",
+      "video"
+    ],
+    "label": 0,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00180",
+    "p": [
+      0.9999997792946502,
+      1.70976764666127e-08,
+      7.202671475821309e-09,
+      4.912898508439718e-10,
+      6.661528391441112e-11,
+      1.9584709667860772e-07
+    ],
+    "raw_probability_sum": 0.9999999822867668,
+    "zero_count": 0,
+    "logits": [
+      8.166444778442383,
+      -9.717878341674805,
+      -10.582368850708008,
+      -13.26754093170166,
+      -15.265642166137695,
+      -7.279486656188965
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00180",
+    "group": "vla_github_experience_v1/lerobot_missing_contract/00180",
+    "question": "next_action",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "schema_audit",
+      "make_split",
+      "compute_stats",
+      "lora_smoke",
+      "run_benchmark",
+      "collect_failures",
+      "calibrate_control",
+      "serve_policy"
+    ],
+    "label": 0,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00180",
+    "p": [
+      0.9996894067817262,
+      0.0003105589547797907,
+      1.0759849329301414e-08,
+      2.283933276832379e-08,
+      2.0442239871378974e-10,
+      3.7134207626737953e-10,
+      2.6560129422170593e-11,
+      6.198721762425345e-11
+    ],
+    "raw_probability_sum": 1.0000000530354665,
+    "zero_count": 0,
+    "logits": [
+      11.263879776000977,
+      3.1870532035827637,
+      -7.083254814147949,
+      -6.33059024810791,
+      -11.046642303466797,
+      -10.44970703125,
+      -13.087420463562012,
+      -12.23990249633789
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00180",
+    "group": "vla_github_experience_v1/lerobot_missing_contract/00180",
+    "question": "blocked",
+    "source": "vla_github_experience_v1",
+    "task": "custom_noul",
+    "type": "noul",
+    "variant": "clean",
+    "keys": [
+      "false",
+      "true"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00180",
+    "p": [
+      2.7427847684613754e-08,
+      0.9999999725721523
+    ],
+    "raw_probability_sum": 1.0000000274278484,
+    "zero_count": 0,
+    "logits": [
+      -0.21615004539489746,
+      17.195556640625
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00180",
+    "group": "vla_github_experience_v1/lerobot_missing_contract/00180",
+    "question": "risk",
+    "source": "vla_github_experience_v1",
+    "task": "custom_score",
+    "type": "score",
+    "variant": "clean",
+    "keys": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "label": 3,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00180",
+    "p": [
+      4.34820486883783e-09,
+      3.969124883453559e-06,
+      0.013955681461505984,
+      0.9860403450654057
+    ],
+    "raw_probability_sum": 1.0000000088329233,
+    "zero_count": 0,
+    "logits": [
+      -4.841303825378418,
+      1.9752354621887207,
+      10.140331268310547,
+      14.398141860961914
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00431",
+    "group": "vla_github_experience_v1/deployment_watchdog/00431",
+    "question": "research_stage",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "data_contract",
+      "finetune",
+      "benchmark",
+      "real_robot",
+      "deployment",
+      "failure_analysis",
+      "cross_embodiment"
+    ],
+    "label": 4,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00431",
+    "p": [
+      2.0709560745375704e-11,
+      7.430792766199285e-11,
+      7.793961010676383e-10,
+      1.2258277692490314e-09,
+      0.9999999972485685,
+      3.8528978512658374e-11,
+      6.126611423536552e-10
+    ],
+    "raw_probability_sum": 1.0000000027514315,
+    "zero_count": 0,
+    "logits": [
+      -11.060251235961914,
+      -9.78262996673584,
+      -7.432327747344971,
+      -6.9794745445251465,
+      13.54017448425293,
+      -10.439435958862305,
+      -7.67303466796875
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00431",
+    "group": "vla_github_experience_v1/deployment_watchdog/00431",
+    "question": "action_space",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "match_schema",
+      "unnorm_key",
+      "ee_delta",
+      "joint_position",
+      "action_token"
+    ],
+    "label": 4,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00431",
+    "p": [
+      4.835998990906935e-06,
+      2.0902352330593095e-08,
+      1.2896731757456056e-09,
+      6.3676390072360555e-09,
+      0.9999951354413446
+    ],
+    "raw_probability_sum": 0.9999999769776718,
+    "zero_count": 0,
+    "logits": [
+      -4.070679664611816,
+      -9.51466178894043,
+      -12.30013370513916,
+      -10.703292846679688,
+      8.16873836517334
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00431",
+    "group": "vla_github_experience_v1/deployment_watchdog/00431",
+    "question": "evidence",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "manifest",
+      "per_task",
+      "learning_curve",
+      "normalization",
+      "latency",
+      "video"
+    ],
+    "label": 4,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00431",
+    "p": [
+      6.469426229347087e-13,
+      2.5782276304494684e-10,
+      9.157996623328423e-13,
+      5.74117576187026e-14,
+      0.9999999996355744,
+      1.0498262672025131e-10
+    ],
+    "raw_probability_sum": 1.0000000003644256,
+    "zero_count": 0,
+    "logits": [
+      -11.723119735717773,
+      -5.735349655151367,
+      -11.375580787658691,
+      -14.14512825012207,
+      16.343399047851562,
+      -6.633827209472656
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00431",
+    "group": "vla_github_experience_v1/deployment_watchdog/00431",
+    "question": "failure_mode",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "data_quality",
+      "language_shift",
+      "camera_shift",
+      "action_scale",
+      "task_shift",
+      "control_loop"
+    ],
+    "label": 5,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00431",
+    "p": [
+      4.25096069262102e-12,
+      9.814649088959166e-12,
+      4.217767192604236e-12,
+      4.336892232243509e-10,
+      4.831858435457768e-12,
+      0.9999999995431956
+    ],
+    "raw_probability_sum": 1.0000000004568044,
+    "zero_count": 0,
+    "logits": [
+      -10.81950569152832,
+      -9.982773780822754,
+      -10.827343940734863,
+      -6.194322109222412,
+      -10.69141960144043,
+      15.364371299743652
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00431",
+    "group": "vla_github_experience_v1/deployment_watchdog/00431",
+    "question": "next_action",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "schema_audit",
+      "make_split",
+      "compute_stats",
+      "lora_smoke",
+      "run_benchmark",
+      "collect_failures",
+      "calibrate_control",
+      "serve_policy"
+    ],
+    "label": 7,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00431",
+    "p": [
+      1.9135684337574584e-11,
+      9.003474172565639e-12,
+      2.1104721681991747e-12,
+      6.638584120288895e-11,
+      8.376592189363387e-10,
+      7.980013343604712e-12,
+      4.7748395467973775e-11,
+      0.9999999990099768
+    ],
+    "raw_probability_sum": 1.0000000009900232,
+    "zero_count": 0,
+    "logits": [
+      -9.326372146606445,
+      -10.080316543579102,
+      -11.531015396118164,
+      -8.082443237304688,
+      -5.547316551208496,
+      -10.200986862182617,
+      -8.411981582641602,
+      15.353094100952148
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00431",
+    "group": "vla_github_experience_v1/deployment_watchdog/00431",
+    "question": "blocked",
+    "source": "vla_github_experience_v1",
+    "task": "custom_noul",
+    "type": "noul",
+    "variant": "clean",
+    "keys": [
+      "false",
+      "true"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00431",
+    "p": [
+      2.837679697070231e-06,
+      0.9999971623203029
+    ],
+    "raw_probability_sum": 0.9999999766566816,
+    "zero_count": 0,
+    "logits": [
+      0.382585346698761,
+      13.155106544494629
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00431",
+    "group": "vla_github_experience_v1/deployment_watchdog/00431",
+    "question": "risk",
+    "source": "vla_github_experience_v1",
+    "task": "custom_score",
+    "type": "score",
+    "variant": "clean",
+    "keys": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "label": 3,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00431",
+    "p": [
+      2.0306514501104914e-07,
+      0.0004538110300967314,
+      0.019741691981477356,
+      0.979804293923281
+    ],
+    "raw_probability_sum": 0.9999999831565987,
+    "zero_count": 0,
+    "logits": [
+      -1.6868444681167603,
+      6.025064468383789,
+      9.797871589660645,
+      13.702491760253906
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00159",
+    "group": "vla_github_experience_v1/real_rollout_small_n/00159",
+    "question": "research_stage",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "data_contract",
+      "finetune",
+      "benchmark",
+      "real_robot",
+      "deployment",
+      "failure_analysis",
+      "cross_embodiment"
+    ],
+    "label": 3,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00159",
+    "p": [
+      4.2610065512186036e-11,
+      2.1235741307326083e-10,
+      3.4488804070698966e-10,
+      0.9999985866220924,
+      1.4075714275501476e-06,
+      2.3162406417815293e-11,
+      5.183462192797226e-09
+    ],
+    "raw_probability_sum": 0.9999999828664088,
+    "zero_count": 0,
+    "logits": [
+      -10.03586483001709,
+      -8.429685592651367,
+      -7.944737434387207,
+      13.843063354492188,
+      0.36942005157470703,
+      -10.645425796508789,
+      -5.23472785949707
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00159",
+    "group": "vla_github_experience_v1/real_rollout_small_n/00159",
+    "question": "benchmark",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "libero",
+      "robotwin",
+      "bridge",
+      "custom_gym",
+      "real_rollout"
+    ],
+    "label": 4,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00159",
+    "p": [
+      1.3611682925221636e-09,
+      3.342437728599446e-10,
+      0.00018467288458395685,
+      1.0873307643298897e-10,
+      0.9998153253112709
+    ],
+    "raw_probability_sum": 1.0000000791184709,
+    "zero_count": 0,
+    "logits": [
+      -5.1679558753967285,
+      -6.572184085845947,
+      6.650042533874512,
+      -7.695158004760742,
+      15.246782302856445
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00159",
+    "group": "vla_github_experience_v1/real_rollout_small_n/00159",
+    "question": "eval_protocol",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "task_100",
+      "suite_50",
+      "real_10",
+      "fixed_seed",
+      "clean_random"
+    ],
+    "label": 2,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00159",
+    "p": [
+      7.427979195166417e-12,
+      6.145035477363431e-06,
+      0.9999937952644461,
+      5.8452648601234045e-08,
+      1.240000095340918e-09
+    ],
+    "raw_probability_sum": 1.0000000058525336,
+    "zero_count": 0,
+    "logits": [
+      -10.858695983886719,
+      2.767205238342285,
+      14.767065048217773,
+      -1.8879778385162354,
+      -5.74108362197876
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00159",
+    "group": "vla_github_experience_v1/real_rollout_small_n/00159",
+    "question": "evidence",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "manifest",
+      "per_task",
+      "learning_curve",
+      "normalization",
+      "latency",
+      "video"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00159",
+    "p": [
+      1.2870648392249966e-09,
+      0.9999999205281961,
+      3.8208207894864756e-08,
+      5.130300902018175e-11,
+      3.227016648901795e-08,
+      7.65506177779222e-09
+    ],
+    "raw_probability_sum": 0.9999999602625113,
+    "zero_count": 0,
+    "logits": [
+      -11.228296279907227,
+      9.242605209350586,
+      -7.837611198425293,
+      -14.450666427612305,
+      -8.006518363952637,
+      -9.445293426513672
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00159",
+    "group": "vla_github_experience_v1/real_rollout_small_n/00159",
+    "question": "next_action",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "schema_audit",
+      "make_split",
+      "compute_stats",
+      "lora_smoke",
+      "run_benchmark",
+      "collect_failures",
+      "calibrate_control",
+      "serve_policy"
+    ],
+    "label": 4,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00159",
+    "p": [
+      3.543317244208973e-09,
+      5.265599140699647e-09,
+      1.1218144346493624e-09,
+      8.54670372969089e-08,
+      0.9999998946194707,
+      6.5461601489879355e-09,
+      1.1126684172460223e-09,
+      2.323932634047994e-09
+    ],
+    "raw_probability_sum": 0.9999999861712383,
+    "zero_count": 0,
+    "logits": [
+      -11.108282089233398,
+      -10.712150573730469,
+      -12.258397102355957,
+      -7.925215721130371,
+      8.349920272827148,
+      -10.494466781616211,
+      -12.266584396362305,
+      -11.530084609985352
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00159",
+    "group": "vla_github_experience_v1/real_rollout_small_n/00159",
+    "question": "blocked",
+    "source": "vla_github_experience_v1",
+    "task": "custom_noul",
+    "type": "noul",
+    "variant": "clean",
+    "keys": [
+      "false",
+      "true"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00159",
+    "p": [
+      1.991137098696822e-05,
+      0.999980088629013
+    ],
+    "raw_probability_sum": 1.0000000034197,
+    "zero_count": 0,
+    "logits": [
+      0.31557488441467285,
+      11.139774322509766
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00159",
+    "group": "vla_github_experience_v1/real_rollout_small_n/00159",
+    "question": "risk",
+    "source": "vla_github_experience_v1",
+    "task": "custom_score",
+    "type": "score",
+    "variant": "clean",
+    "keys": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "label": 2,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00159",
+    "p": [
+      2.584765462873133e-05,
+      0.017666690558204287,
+      0.9797036928757887,
+      0.0026037689113782483
+    ],
+    "raw_probability_sum": 0.9999999713218131,
+    "zero_count": 0,
+    "logits": [
+      -1.7495242357254028,
+      4.7776923179626465,
+      8.793261528015137,
+      2.862971544265747
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00312",
+    "group": "vla_github_experience_v1/failure_camera_shift/00312",
+    "question": "research_stage",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "data_contract",
+      "finetune",
+      "benchmark",
+      "real_robot",
+      "deployment",
+      "failure_analysis",
+      "cross_embodiment"
+    ],
+    "label": 5,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00312",
+    "p": [
+      2.1204594182054356e-11,
+      2.674282808501856e-10,
+      1.7258873857101534e-05,
+      2.571718598735909e-11,
+      1.7487393927629668e-11,
+      0.999982740379479,
+      4.148264338839797e-10
+    ],
+    "raw_probability_sum": 0.9999999742730921,
+    "zero_count": 0,
+    "logits": [
+      -11.099813461303711,
+      -8.565178871154785,
+      2.5098061561584473,
+      -10.906871795654297,
+      -11.292551040649414,
+      13.476972579956055,
+      -8.126171112060547
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00312",
+    "group": "vla_github_experience_v1/failure_camera_shift/00312",
+    "question": "benchmark",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "libero",
+      "robotwin",
+      "bridge",
+      "custom_gym",
+      "real_rollout"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00312",
+    "p": [
+      1.7919317286743325e-09,
+      0.9999992309077236,
+      5.529483240025516e-10,
+      7.664684900461956e-07,
+      2.7890616091693796e-10
+    ],
+    "raw_probability_sum": 1.0000000538365805,
+    "zero_count": 0,
+    "logits": [
+      -4.885860919952393,
+      15.254109382629395,
+      -6.061645984649658,
+      1.172637939453125,
+      -6.746035099029541
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00312",
+    "group": "vla_github_experience_v1/failure_camera_shift/00312",
+    "question": "failure_mode",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "data_quality",
+      "language_shift",
+      "camera_shift",
+      "action_scale",
+      "task_shift",
+      "control_loop"
+    ],
+    "label": 2,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00312",
+    "p": [
+      1.8005048976819235e-13,
+      2.0707720888741107e-13,
+      0.9999999413189337,
+      3.266048906183431e-10,
+      5.8352750315907806e-08,
+      1.3240187248866485e-12
+    ],
+    "raw_probability_sum": 1.0000000586810698,
+    "zero_count": 0,
+    "logits": [
+      -12.156539916992188,
+      -12.016685485839844,
+      17.18899917602539,
+      -4.653271198272705,
+      0.5322397947311401,
+      -10.161349296569824
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00312",
+    "group": "vla_github_experience_v1/failure_camera_shift/00312",
+    "question": "evidence",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "manifest",
+      "per_task",
+      "learning_curve",
+      "normalization",
+      "latency",
+      "video"
+    ],
+    "label": 5,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00312",
+    "p": [
+      9.076317184652327e-12,
+      2.1432332320145358e-05,
+      1.619059788355325e-11,
+      7.97622144783993e-12,
+      2.1513359401384483e-13,
+      0.9999785676342217
+    ],
+    "raw_probability_sum": 0.9999999746931169,
+    "zero_count": 0,
+    "logits": [
+      -13.073709487915039,
+      1.6010324954986572,
+      -12.49494743347168,
+      -13.202913284301758,
+      -16.815876007080078,
+      12.3516206741333
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00312",
+    "group": "vla_github_experience_v1/failure_camera_shift/00312",
+    "question": "next_action",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "schema_audit",
+      "make_split",
+      "compute_stats",
+      "lora_smoke",
+      "run_benchmark",
+      "collect_failures",
+      "calibrate_control",
+      "serve_policy"
+    ],
+    "label": 5,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00312",
+    "p": [
+      1.232622174741894e-09,
+      2.2714577874985064e-10,
+      1.6910663270017735e-09,
+      1.0742185578432625e-09,
+      3.76872988087422e-08,
+      0.9999999580014696,
+      6.644854526208071e-11,
+      1.9730240917311012e-11
+    ],
+    "raw_probability_sum": 1.0000000419985322,
+    "zero_count": 0,
+    "logits": [
+      -11.20322036743164,
+      -12.894527435302734,
+      -10.887006759643555,
+      -11.34077262878418,
+      -7.783041954040527,
+      9.310900688171387,
+      -14.123693466186523,
+      -15.337966918945312
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00312",
+    "group": "vla_github_experience_v1/failure_camera_shift/00312",
+    "question": "blocked",
+    "source": "vla_github_experience_v1",
+    "task": "custom_noul",
+    "type": "noul",
+    "variant": "clean",
+    "keys": [
+      "false",
+      "true"
+    ],
+    "label": 0,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00312",
+    "p": [
+      0.9999867954489656,
+      1.3204551034396454e-05
+    ],
+    "raw_probability_sum": 0.9999999723195288,
+    "zero_count": 0,
+    "logits": [
+      7.902794361114502,
+      -3.332141637802124
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00312",
+    "group": "vla_github_experience_v1/failure_camera_shift/00312",
+    "question": "risk",
+    "source": "vla_github_experience_v1",
+    "task": "custom_score",
+    "type": "score",
+    "variant": "clean",
+    "keys": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "label": 2,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00312",
+    "p": [
+      1.6804874018418314e-07,
+      2.6411582463903638e-06,
+      0.9992036060670806,
+      0.000793584725932893
+    ],
+    "raw_probability_sum": 1.0000000162870464,
+    "zero_count": 0,
+    "logits": [
+      -1.4125441312789917,
+      1.342175006866455,
+      14.185670852661133,
+      7.0475172996521
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00010",
+    "group": "vla_github_experience_v1/robotwin_language_shift/00010",
+    "question": "research_stage",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "data_contract",
+      "finetune",
+      "benchmark",
+      "real_robot",
+      "deployment",
+      "failure_analysis",
+      "cross_embodiment"
+    ],
+    "label": 2,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00010",
+    "p": [
+      1.4990591863032727e-09,
+      9.436932335663202e-11,
+      0.9999999841274354,
+      4.3917255801025475e-09,
+      6.986017903190812e-11,
+      2.0318258905377673e-11,
+      9.797232203214227e-09
+    ],
+    "raw_probability_sum": 1.0000000158725648,
+    "zero_count": 0,
+    "logits": [
+      -6.620148658752441,
+      -9.385527610778809,
+      13.698278427124023,
+      -5.545265197753906,
+      -9.686246871948242,
+      -10.921222686767578,
+      -4.7428879737854
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00010",
+    "group": "vla_github_experience_v1/robotwin_language_shift/00010",
+    "question": "split_protocol",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "episode_disjoint",
+      "task_disjoint",
+      "language_disjoint",
+      "embodiment_disjoint",
+      "libero_90_10",
+      "clean_random"
+    ],
+    "label": 2,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00010",
+    "p": [
+      1.1357509207161412e-07,
+      0.0005057747538417432,
+      0.9994939689395169,
+      4.958540306456608e-08,
+      7.998402039787122e-08,
+      1.316212577458933e-08
+    ],
+    "raw_probability_sum": 0.9999999876200754,
+    "zero_count": 0,
+    "logits": [
+      -4.719005107879639,
+      3.6823768615722656,
+      11.271289825439453,
+      -5.5477728843688965,
+      -5.069642543792725,
+      -6.8741254806518555
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00010",
+    "group": "vla_github_experience_v1/robotwin_language_shift/00010",
+    "question": "benchmark",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "libero",
+      "robotwin",
+      "bridge",
+      "custom_gym",
+      "real_rollout"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00010",
+    "p": [
+      0.00016837296648183358,
+      0.9998312992894793,
+      2.242710703058927e-07,
+      7.825750783492744e-08,
+      2.5215460678897247e-08
+    ],
+    "raw_probability_sum": 0.999999900339704,
+    "zero_count": 0,
+    "logits": [
+      -0.6276615262031555,
+      8.061498641967773,
+      -7.248743057250977,
+      -8.301593780517578,
+      -9.434141159057617
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00010",
+    "group": "vla_github_experience_v1/robotwin_language_shift/00010",
+    "question": "failure_mode",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "data_quality",
+      "language_shift",
+      "camera_shift",
+      "action_scale",
+      "task_shift",
+      "control_loop"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00010",
+    "p": [
+      1.4814984177257404e-09,
+      0.9999998391274645,
+      1.281488355331025e-07,
+      1.2987312905805709e-09,
+      2.9800653147030975e-08,
+      1.4281705778053704e-10
+    ],
+    "raw_probability_sum": 1.0000000416632526,
+    "zero_count": 0,
+    "logits": [
+      -8.148324966430664,
+      12.18188762664795,
+      -3.688185930252075,
+      -8.279990196228027,
+      -5.146848201751709,
+      -10.487568855285645
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00010",
+    "group": "vla_github_experience_v1/robotwin_language_shift/00010",
+    "question": "evidence",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "manifest",
+      "per_task",
+      "learning_curve",
+      "normalization",
+      "latency",
+      "video"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00010",
+    "p": [
+      1.6791916554116572e-07,
+      0.9999997794467529,
+      8.310060241530445e-09,
+      1.1986217469525774e-09,
+      1.6279208552286109e-09,
+      4.149747857785065e-08
+    ],
+    "raw_probability_sum": 1.0000001013439799,
+    "zero_count": 0,
+    "logits": [
+      -8.865839004516602,
+      6.733943462371826,
+      -11.871855735778809,
+      -13.808150291442871,
+      -13.502017974853516,
+      -10.263689041137695
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00010",
+    "group": "vla_github_experience_v1/robotwin_language_shift/00010",
+    "question": "next_action",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "schema_audit",
+      "make_split",
+      "compute_stats",
+      "lora_smoke",
+      "run_benchmark",
+      "collect_failures",
+      "calibrate_control",
+      "serve_policy"
+    ],
+    "label": 4,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00010",
+    "p": [
+      7.712361333685249e-06,
+      3.705043339054117e-06,
+      2.76356785170632e-07,
+      4.426054128396733e-06,
+      0.9999808030587365,
+      2.7688742985212844e-06,
+      7.87043813444053e-08,
+      2.295469973236528e-07
+    ],
+    "raw_probability_sum": 1.0000000042457273,
+    "zero_count": 0,
+    "logits": [
+      -6.819275856018066,
+      -7.55240535736084,
+      -10.148162841796875,
+      -7.374591827392578,
+      4.953391075134277,
+      -7.843658924102783,
+      -11.404155731201172,
+      -10.333747863769531
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00010",
+    "group": "vla_github_experience_v1/robotwin_language_shift/00010",
+    "question": "blocked",
+    "source": "vla_github_experience_v1",
+    "task": "custom_noul",
+    "type": "noul",
+    "variant": "clean",
+    "keys": [
+      "false",
+      "true"
+    ],
+    "label": 0,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00010",
+    "p": [
+      0.9998173093340376,
+      0.00018269066596244605
+    ],
+    "raw_probability_sum": 1.0000000024301698,
+    "zero_count": 0,
+    "logits": [
+      3.760054111480713,
+      -4.847479343414307
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00010",
+    "group": "vla_github_experience_v1/robotwin_language_shift/00010",
+    "question": "risk",
+    "source": "vla_github_experience_v1",
+    "task": "custom_score",
+    "type": "score",
+    "variant": "clean",
+    "keys": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "label": 2,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00010",
+    "p": [
+      4.474180933938694e-06,
+      0.0001828063276313357,
+      0.9996844276119552,
+      0.00012829187947951476
+    ],
+    "raw_probability_sum": 0.9999999061597009,
+    "zero_count": 0,
+    "logits": [
+      -1.0530294179916382,
+      2.6570754051208496,
+      11.263842582702637,
+      2.302955389022827
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00407",
+    "group": "vla_github_experience_v1/robotwin_clean_random/00407",
+    "question": "research_stage",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "data_contract",
+      "finetune",
+      "benchmark",
+      "real_robot",
+      "deployment",
+      "failure_analysis",
+      "cross_embodiment"
+    ],
+    "label": 2,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00407",
+    "p": [
+      3.511773226608317e-10,
+      1.5085287771241986e-07,
+      0.9999998393609739,
+      4.136604220978962e-09,
+      7.688181716928571e-11,
+      2.993271131847345e-11,
+      5.191552306126272e-09
+    ],
+    "raw_probability_sum": 1.0000000414297432,
+    "zero_count": 0,
+    "logits": [
+      -9.446976661682129,
+      -3.3842082023620605,
+      12.322751998901367,
+      -6.980637550354004,
+      -10.965999603271484,
+      -11.909317016601562,
+      -6.753479957580566
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00407",
+    "group": "vla_github_experience_v1/robotwin_clean_random/00407",
+    "question": "split_protocol",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "episode_disjoint",
+      "task_disjoint",
+      "language_disjoint",
+      "embodiment_disjoint",
+      "libero_90_10",
+      "clean_random"
+    ],
+    "label": 5,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00407",
+    "p": [
+      8.538308650856218e-09,
+      6.624076228636579e-11,
+      1.5517963512313626e-11,
+      9.760101494390372e-12,
+      2.5448731784507727e-10,
+      0.9999999911156853
+    ],
+    "raw_probability_sum": 1.0000000088843148,
+    "zero_count": 0,
+    "logits": [
+      -2.9149036407470703,
+      -7.77392578125,
+      -9.22522258758545,
+      -9.688919067382812,
+      -6.4279704093933105,
+      15.663799285888672
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00407",
+    "group": "vla_github_experience_v1/robotwin_clean_random/00407",
+    "question": "benchmark",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "libero",
+      "robotwin",
+      "bridge",
+      "custom_gym",
+      "real_rollout"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00407",
+    "p": [
+      4.405929779920418e-09,
+      0.9999999856404584,
+      8.110281774056616e-10,
+      8.96669303698856e-09,
+      1.7589061898642274e-10
+    ],
+    "raw_probability_sum": 1.0000000143595418,
+    "zero_count": 0,
+    "logits": [
+      -2.78303599357605,
+      16.457279205322266,
+      -4.475438594818115,
+      -2.07246994972229,
+      -6.003879547119141
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00407",
+    "group": "vla_github_experience_v1/robotwin_clean_random/00407",
+    "question": "eval_protocol",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "task_100",
+      "suite_50",
+      "real_10",
+      "fixed_seed",
+      "clean_random"
+    ],
+    "label": 4,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00407",
+    "p": [
+      2.019789785886382e-11,
+      5.167943670774805e-08,
+      1.6226835003604243e-11,
+      2.738547857104922e-10,
+      0.9999999480102837
+    ],
+    "raw_probability_sum": 1.000000051989719,
+    "zero_count": 0,
+    "logits": [
+      -6.576485633850098,
+      1.2707509994506836,
+      -6.795399188995361,
+      -3.9694676399230957,
+      18.0489559173584
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00407",
+    "group": "vla_github_experience_v1/robotwin_clean_random/00407",
+    "question": "evidence",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "manifest",
+      "per_task",
+      "learning_curve",
+      "normalization",
+      "latency",
+      "video"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00407",
+    "p": [
+      3.932310043386239e-09,
+      0.9999994065566391,
+      1.5084691579590332e-07,
+      1.3192273696706404e-10,
+      6.542533754028107e-10,
+      4.378779590326866e-07
+    ],
+    "raw_probability_sum": 0.9999999973969116,
+    "zero_count": 0,
+    "logits": [
+      -10.869717597961426,
+      8.484321594238281,
+      -7.222678184509277,
+      -14.264482498168945,
+      -12.66320514678955,
+      -6.157003402709961
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00407",
+    "group": "vla_github_experience_v1/robotwin_clean_random/00407",
+    "question": "next_action",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "schema_audit",
+      "make_split",
+      "compute_stats",
+      "lora_smoke",
+      "run_benchmark",
+      "collect_failures",
+      "calibrate_control",
+      "serve_policy"
+    ],
+    "label": 4,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00407",
+    "p": [
+      1.3265221468952798e-08,
+      1.3664464763774227e-09,
+      2.399661740924182e-09,
+      1.4161064063793467e-06,
+      0.9999985437871058,
+      2.1795817923199023e-08,
+      4.110704448876351e-10,
+      8.682697115732966e-10
+    ],
+    "raw_probability_sum": 1.000000025701457,
+    "zero_count": 0,
+    "logits": [
+      -8.088873863220215,
+      -10.361804962158203,
+      -9.798690795898438,
+      -3.4183526039123535,
+      10.049245834350586,
+      -7.592300891876221,
+      -11.563009262084961,
+      -10.81527042388916
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00407",
+    "group": "vla_github_experience_v1/robotwin_clean_random/00407",
+    "question": "blocked",
+    "source": "vla_github_experience_v1",
+    "task": "custom_noul",
+    "type": "noul",
+    "variant": "clean",
+    "keys": [
+      "false",
+      "true"
+    ],
+    "label": 0,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00407",
+    "p": [
+      0.9998116418263628,
+      0.00018835817363712853
+    ],
+    "raw_probability_sum": 1.000000067113433,
+    "zero_count": 0,
+    "logits": [
+      4.846903324127197,
+      -3.7300736904144287
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00407",
+    "group": "vla_github_experience_v1/robotwin_clean_random/00407",
+    "question": "risk",
+    "source": "vla_github_experience_v1",
+    "task": "custom_score",
+    "type": "score",
+    "variant": "clean",
+    "keys": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "label": 2,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00407",
+    "p": [
+      4.5228776487248355e-06,
+      6.424295300562816e-05,
+      0.9902819722483212,
+      0.00964926192102449
+    ],
+    "raw_probability_sum": 1.0000000873160388,
+    "zero_count": 0,
+    "logits": [
+      0.6734080910682678,
+      3.326932191848755,
+      12.97000503540039,
+      8.338896751403809
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00397",
+    "group": "vla_github_experience_v1/openvla_unnorm_key/00397",
+    "question": "research_stage",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "data_contract",
+      "finetune",
+      "benchmark",
+      "real_robot",
+      "deployment",
+      "failure_analysis",
+      "cross_embodiment"
+    ],
+    "label": 3,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00397",
+    "p": [
+      2.0856201443659575e-08,
+      0.00015832131008136152,
+      1.9046412831750231e-06,
+      0.9998369754480376,
+      1.3621180472028312e-08,
+      2.5967155156697165e-06,
+      1.674077002656576e-07
+    ],
+    "raw_probability_sum": 0.9999999462350919,
+    "zero_count": 0,
+    "logits": [
+      -6.498336315155029,
+      2.436393976211548,
+      -1.9839389324188232,
+      11.187114715576172,
+      -6.924363136291504,
+      -1.673985242843628,
+      -4.415555953979492
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00397",
+    "group": "vla_github_experience_v1/openvla_unnorm_key/00397",
+    "question": "action_space",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "match_schema",
+      "unnorm_key",
+      "ee_delta",
+      "joint_position",
+      "action_token"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00397",
+    "p": [
+      2.4424176420036972e-06,
+      0.9999975328250925,
+      8.436398552226998e-09,
+      4.070200712899539e-10,
+      1.591384681718189e-08
+    ],
+    "raw_probability_sum": 0.9999999637797375,
+    "zero_count": 0,
+    "logits": [
+      -1.0652453899383545,
+      11.857274055480957,
+      -6.733433723449707,
+      -9.76488208770752,
+      -6.098799705505371
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00397",
+    "group": "vla_github_experience_v1/openvla_unnorm_key/00397",
+    "question": "failure_mode",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "data_quality",
+      "language_shift",
+      "camera_shift",
+      "action_scale",
+      "task_shift",
+      "control_loop"
+    ],
+    "label": 3,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00397",
+    "p": [
+      2.7270716489765545e-09,
+      1.1162395327108572e-09,
+      1.3399697867428933e-10,
+      0.9999999887753951,
+      3.0741748801237356e-09,
+      4.173121801241739e-09
+    ],
+    "raw_probability_sum": 1.000000011224605,
+    "zero_count": 0,
+    "logits": [
+      -5.593147277832031,
+      -6.486411094665527,
+      -8.606314659118652,
+      14.126890182495117,
+      -5.473338603973389,
+      -5.167712211608887
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00397",
+    "group": "vla_github_experience_v1/openvla_unnorm_key/00397",
+    "question": "evidence",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "manifest",
+      "per_task",
+      "learning_curve",
+      "normalization",
+      "latency",
+      "video"
+    ],
+    "label": 5,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00397",
+    "p": [
+      3.9352101708590755e-12,
+      1.3324705580929194e-08,
+      3.561121343710125e-10,
+      1.4942948873490386e-09,
+      4.017394808480195e-13,
+      0.9999999848205505
+    ],
+    "raw_probability_sum": 1.0000000151794497,
+    "zero_count": 0,
+    "logits": [
+      -11.327589988708496,
+      -3.200179100036621,
+      -6.822307586669922,
+      -5.388144493103027,
+      -13.609505653381348,
+      14.933466911315918
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00397",
+    "group": "vla_github_experience_v1/openvla_unnorm_key/00397",
+    "question": "next_action",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "schema_audit",
+      "make_split",
+      "compute_stats",
+      "lora_smoke",
+      "run_benchmark",
+      "collect_failures",
+      "calibrate_control",
+      "serve_policy"
+    ],
+    "label": 6,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00397",
+    "p": [
+      2.531887928772925e-06,
+      9.948563143772042e-07,
+      0.0001400300498534671,
+      0.0003589038086735916,
+      5.200417783801988e-07,
+      0.00033930910031199595,
+      0.9991571493249203,
+      5.609302191055358e-07
+    ],
+    "raw_probability_sum": 0.99999992172269,
+    "zero_count": 0,
+    "logits": [
+      -7.9795331954956055,
+      -8.913656234741211,
+      -3.966641902923584,
+      -3.025444507598877,
+      -9.562345504760742,
+      -3.081587314605713,
+      4.906168460845947,
+      -9.48665714263916
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00397",
+    "group": "vla_github_experience_v1/openvla_unnorm_key/00397",
+    "question": "blocked",
+    "source": "vla_github_experience_v1",
+    "task": "custom_noul",
+    "type": "noul",
+    "variant": "clean",
+    "keys": [
+      "false",
+      "true"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00397",
+    "p": [
+      2.5977240703141336e-06,
+      0.9999974022759297
+    ],
+    "raw_probability_sum": 0.9999999751196356,
+    "zero_count": 0,
+    "logits": [
+      1.8373327255249023,
+      14.69820499420166
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00397",
+    "group": "vla_github_experience_v1/openvla_unnorm_key/00397",
+    "question": "risk",
+    "source": "vla_github_experience_v1",
+    "task": "custom_score",
+    "type": "score",
+    "variant": "clean",
+    "keys": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "label": 3,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00397",
+    "p": [
+      1.6216932670279888e-09,
+      2.7974987194704854e-07,
+      0.005924700510385412,
+      0.9940750181180492
+    ],
+    "raw_probability_sum": 1.0000000420216755,
+    "zero_count": 0,
+    "logits": [
+      -2.5214242935180664,
+      2.6290018558502197,
+      12.589746475219727,
+      17.71242904663086
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00378",
+    "group": "vla_github_experience_v1/libero_transfer_leak/00378",
+    "question": "research_stage",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "data_contract",
+      "finetune",
+      "benchmark",
+      "real_robot",
+      "deployment",
+      "failure_analysis",
+      "cross_embodiment"
+    ],
+    "label": 2,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00378",
+    "p": [
+      2.2392688694944007e-09,
+      2.8746379696882265e-08,
+      0.9999997066706517,
+      2.4564069428611816e-09,
+      5.49819826119269e-10,
+      4.080335844968915e-11,
+      2.592966694418932e-07
+    ],
+    "raw_probability_sum": 1.0000000549107853,
+    "zero_count": 0,
+    "logits": [
+      -7.924563884735107,
+      -5.3722004890441895,
+      11.992552757263184,
+      -7.832012176513672,
+      -9.328876495361328,
+      -11.929704666137695,
+      -3.1727402210235596
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00378",
+    "group": "vla_github_experience_v1/libero_transfer_leak/00378",
+    "question": "split_protocol",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "episode_disjoint",
+      "task_disjoint",
+      "language_disjoint",
+      "embodiment_disjoint",
+      "libero_90_10",
+      "clean_random"
+    ],
+    "label": 4,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00378",
+    "p": [
+      3.1200134287046655e-06,
+      2.145852021194928e-07,
+      4.2138573167766106e-09,
+      2.2804307344165513e-10,
+      0.9999961980349873,
+      4.629244815356514e-07
+    ],
+    "raw_probability_sum": 0.9999999872676987,
+    "zero_count": 0,
+    "logits": [
+      -0.8614367246627808,
+      -3.5383224487304688,
+      -7.4686503410339355,
+      -10.385250091552734,
+      11.816232681274414,
+      -2.769465208053589
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00378",
+    "group": "vla_github_experience_v1/libero_transfer_leak/00378",
+    "question": "benchmark",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "libero",
+      "robotwin",
+      "bridge",
+      "custom_gym",
+      "real_rollout"
+    ],
+    "label": 0,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00378",
+    "p": [
+      0.9999975818973773,
+      3.186301745405494e-07,
+      9.944837504814779e-08,
+      1.987573728801471e-06,
+      1.2450344332888788e-08
+    ],
+    "raw_probability_sum": 1.0000000339169137,
+    "zero_count": 0,
+    "logits": [
+      9.54714584350586,
+      -5.4120869636535645,
+      -6.576479434967041,
+      -3.5814476013183594,
+      -8.654369354248047
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00378",
+    "group": "vla_github_experience_v1/libero_transfer_leak/00378",
+    "question": "eval_protocol",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "task_100",
+      "suite_50",
+      "real_10",
+      "fixed_seed",
+      "clean_random"
+    ],
+    "label": 3,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00378",
+    "p": [
+      1.123987389515735e-06,
+      0.00029055479215950395,
+      6.270275012714099e-08,
+      0.9997075841127844,
+      6.744049165250232e-07
+    ],
+    "raw_probability_sum": 0.9999999358765521,
+    "zero_count": 0,
+    "logits": [
+      -4.948801517486572,
+      0.6061083078384399,
+      -7.835032939910889,
+      8.749534606933594,
+      -5.459608554840088
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00378",
+    "group": "vla_github_experience_v1/libero_transfer_leak/00378",
+    "question": "evidence",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "manifest",
+      "per_task",
+      "learning_curve",
+      "normalization",
+      "latency",
+      "video"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00378",
+    "p": [
+      1.80838302330559e-05,
+      0.9999674365505699,
+      1.37624144442649e-05,
+      5.845211135461987e-08,
+      5.693364247777779e-08,
+      6.018189990025198e-07
+    ],
+    "raw_probability_sum": 1.0000000193140117,
+    "zero_count": 0,
+    "logits": [
+      -8.828292846679688,
+      2.0921664237976074,
+      -9.101370811462402,
+      -14.562858581542969,
+      -14.589179992675781,
+      -12.231109619140625
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00378",
+    "group": "vla_github_experience_v1/libero_transfer_leak/00378",
+    "question": "next_action",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "schema_audit",
+      "make_split",
+      "compute_stats",
+      "lora_smoke",
+      "run_benchmark",
+      "collect_failures",
+      "calibrate_control",
+      "serve_policy"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00378",
+    "p": [
+      6.778549340272766e-10,
+      0.9999993968441502,
+      1.0122843602442e-09,
+      2.0520304953693395e-07,
+      3.9615005394202355e-07,
+      9.345895518767269e-11,
+      4.63015299889727e-12,
+      1.4518083680561657e-11
+    ],
+    "raw_probability_sum": 1.0000000071094064,
+    "zero_count": 0,
+    "logits": [
+      -6.936671733856201,
+      14.1754150390625,
+      -6.535640716552734,
+      -1.2238500118255615,
+      -0.5660570859909058,
+      -8.918084144592285,
+      -11.923015594482422,
+      -10.780210494995117
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00378",
+    "group": "vla_github_experience_v1/libero_transfer_leak/00378",
+    "question": "blocked",
+    "source": "vla_github_experience_v1",
+    "task": "custom_noul",
+    "type": "noul",
+    "variant": "clean",
+    "keys": [
+      "false",
+      "true"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00378",
+    "p": [
+      2.1898226690252937e-05,
+      0.9999781017733097
+    ],
+    "raw_probability_sum": 0.9999999637166184,
+    "zero_count": 0,
+    "logits": [
+      0.13880348205566406,
+      10.867886543273926
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00378",
+    "group": "vla_github_experience_v1/libero_transfer_leak/00378",
+    "question": "risk",
+    "source": "vla_github_experience_v1",
+    "task": "custom_score",
+    "type": "score",
+    "variant": "clean",
+    "keys": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "label": 3,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00378",
+    "p": [
+      1.4671898171981462e-08,
+      1.9194993408510285e-05,
+      0.002806600675317923,
+      0.9971741896593754
+    ],
+    "raw_probability_sum": 1.0000000735489483,
+    "zero_count": 0,
+    "logits": [
+      -1.6956886053085327,
+      5.480782508850098,
+      10.465862274169922,
+      16.33881378173828
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00234",
+    "group": "vla_github_experience_v1/real_rollout_small_n/00234",
+    "question": "research_stage",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "data_contract",
+      "finetune",
+      "benchmark",
+      "real_robot",
+      "deployment",
+      "failure_analysis",
+      "cross_embodiment"
+    ],
+    "label": 3,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00234",
+    "p": [
+      1.6588785887670545e-11,
+      1.40075511845204e-11,
+      1.324939740229712e-10,
+      0.9999999992268964,
+      2.4558710948639534e-11,
+      5.595606196288628e-10,
+      2.5894036894645525e-11
+    ],
+    "raw_probability_sum": 1.0000000007731036,
+    "zero_count": 0,
+    "logits": [
+      -9.51817512512207,
+      -9.687305450439453,
+      -7.440365791320801,
+      15.304119110107422,
+      -9.125835418701172,
+      -5.999750137329102,
+      -9.07288932800293
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00234",
+    "group": "vla_github_experience_v1/real_rollout_small_n/00234",
+    "question": "benchmark",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "libero",
+      "robotwin",
+      "bridge",
+      "custom_gym",
+      "real_rollout"
+    ],
+    "label": 4,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00234",
+    "p": [
+      8.962120303364355e-11,
+      4.570437639954088e-09,
+      1.6998378051546052e-06,
+      7.614954501210526e-10,
+      0.9999982947406405
+    ],
+    "raw_probability_sum": 1.0000000363293677,
+    "zero_count": 0,
+    "logits": [
+      -6.25221061706543,
+      -2.3204381465911865,
+      3.598241090774536,
+      -4.112518310546875,
+      16.883216857910156
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00234",
+    "group": "vla_github_experience_v1/real_rollout_small_n/00234",
+    "question": "eval_protocol",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "task_100",
+      "suite_50",
+      "real_10",
+      "fixed_seed",
+      "clean_random"
+    ],
+    "label": 2,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00234",
+    "p": [
+      2.9292938147652276e-09,
+      2.641341061110986e-07,
+      0.9999997261545327,
+      5.356574105467591e-09,
+      1.425493228471764e-09
+    ],
+    "raw_probability_sum": 1.0000000354268979,
+    "zero_count": 0,
+    "logits": [
+      -4.754086971282959,
+      -0.25239092111587524,
+      14.894417762756348,
+      -4.150524139404297,
+      -5.474329471588135
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00234",
+    "group": "vla_github_experience_v1/real_rollout_small_n/00234",
+    "question": "evidence",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "manifest",
+      "per_task",
+      "learning_curve",
+      "normalization",
+      "latency",
+      "video"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00234",
+    "p": [
+      5.300259376941331e-13,
+      0.9999996244807728,
+      1.8833591293726104e-10,
+      5.002397603625715e-13,
+      3.134127623531037e-11,
+      3.7529851976361535e-07
+    ],
+    "raw_probability_sum": 1.0000000178913653,
+    "zero_count": 0,
+    "logits": [
+      -10.701457977294922,
+      17.56439208984375,
+      -4.828402042388916,
+      -10.759296417236328,
+      -6.621693134307861,
+      2.7688488960266113
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00234",
+    "group": "vla_github_experience_v1/real_rollout_small_n/00234",
+    "question": "next_action",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "schema_audit",
+      "make_split",
+      "compute_stats",
+      "lora_smoke",
+      "run_benchmark",
+      "collect_failures",
+      "calibrate_control",
+      "serve_policy"
+    ],
+    "label": 4,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00234",
+    "p": [
+      1.011469731256783e-09,
+      8.439656991868362e-11,
+      1.4071461642882046e-11,
+      8.348916600362887e-09,
+      0.9999993296999149,
+      6.606547073312838e-07,
+      1.127661278978787e-10,
+      7.375731607319365e-11
+    ],
+    "raw_probability_sum": 0.9999999550443177,
+    "zero_count": 0,
+    "logits": [
+      -6.856242656707764,
+      -9.339876174926758,
+      -11.131254196166992,
+      -4.745515823364258,
+      13.85561752319336,
+      -0.3744160532951355,
+      -9.050086975097656,
+      -9.47462272644043
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00234",
+    "group": "vla_github_experience_v1/real_rollout_small_n/00234",
+    "question": "blocked",
+    "source": "vla_github_experience_v1",
+    "task": "custom_noul",
+    "type": "noul",
+    "variant": "clean",
+    "keys": [
+      "false",
+      "true"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00234",
+    "p": [
+      3.6732143932195786e-05,
+      0.9999632678560678
+    ],
+    "raw_probability_sum": 1.0000000156833266,
+    "zero_count": 0,
+    "logits": [
+      5.3179216384887695,
+      15.529743194580078
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00234",
+    "group": "vla_github_experience_v1/real_rollout_small_n/00234",
+    "question": "risk",
+    "source": "vla_github_experience_v1",
+    "task": "custom_score",
+    "type": "score",
+    "variant": "clean",
+    "keys": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "label": 2,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00234",
+    "p": [
+      2.3601035139992214e-05,
+      0.008911432205218258,
+      0.9891460586572238,
+      0.001918908102417952
+    ],
+    "raw_probability_sum": 1.0000000553391146,
+    "zero_count": 0,
+    "logits": [
+      0.2605378031730652,
+      6.194337844848633,
+      10.903844833374023,
+      4.658759117126465
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00410",
+    "group": "vla_github_experience_v1/openpi_memory_budget/00410",
+    "question": "research_stage",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "data_contract",
+      "finetune",
+      "benchmark",
+      "real_robot",
+      "deployment",
+      "failure_analysis",
+      "cross_embodiment"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00410",
+    "p": [
+      6.111806636377826e-07,
+      0.9999632780949642,
+      3.241022550901002e-05,
+      9.72566903490959e-07,
+      7.369345626910731e-08,
+      3.001547438687644e-08,
+      2.6242230290262557e-06
+    ],
+    "raw_probability_sum": 1.000000005444054,
+    "zero_count": 0,
+    "logits": [
+      -9.171268463134766,
+      5.136568546295166,
+      -5.200430870056152,
+      -8.706722259521484,
+      -11.286746978759766,
+      -12.184947967529297,
+      -7.714120864868164
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00410",
+    "group": "vla_github_experience_v1/openpi_memory_budget/00410",
+    "question": "finetune_mode",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "lora",
+      "head_only",
+      "head_mlp",
+      "full",
+      "scratch"
+    ],
+    "label": 0,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00410",
+    "p": [
+      0.8449029174104403,
+      0.0008492166372572041,
+      0.005708947209155513,
+      0.1485136571571868,
+      2.5261585960119484e-05
+    ],
+    "raw_probability_sum": 1.000000018029823,
+    "zero_count": 0,
+    "logits": [
+      2.6339850425720215,
+      -4.268677711486816,
+      -2.3632020950317383,
+      0.8954401016235352,
+      -7.7837066650390625
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00410",
+    "group": "vla_github_experience_v1/openpi_memory_budget/00410",
+    "question": "gpu_plan",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "single_lora",
+      "multi_lora",
+      "a100_full",
+      "cpu_debug"
+    ],
+    "label": 0,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00410",
+    "p": [
+      0.9999918767335563,
+      1.4682477490165437e-06,
+      6.362505592578484e-06,
+      2.925131020867514e-07
+    ],
+    "raw_probability_sum": 1.0000000170348926,
+    "zero_count": 0,
+    "logits": [
+      7.952197074890137,
+      -5.4792351722717285,
+      -4.012882709503174,
+      -7.092551231384277
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00410",
+    "group": "vla_github_experience_v1/openpi_memory_budget/00410",
+    "question": "normalization",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "recompute",
+      "reuse",
+      "compare",
+      "audit"
+    ],
+    "label": 2,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00410",
+    "p": [
+      5.010999953888294e-07,
+      1.2445265369409358e-05,
+      0.9999866935519534,
+      3.6008268181468827e-07
+    ],
+    "raw_probability_sum": 1.000000074217894,
+    "zero_count": 0,
+    "logits": [
+      -8.789806365966797,
+      -5.577516555786133,
+      5.716640472412109,
+      -9.120278358459473
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00410",
+    "group": "vla_github_experience_v1/openpi_memory_budget/00410",
+    "question": "evidence",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "manifest",
+      "per_task",
+      "learning_curve",
+      "normalization",
+      "latency",
+      "video"
+    ],
+    "label": 2,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00410",
+    "p": [
+      2.524076467612499e-07,
+      9.964173562324304e-06,
+      0.9996884501477913,
+      0.000301145036194603,
+      7.471558422690604e-08,
+      1.1351922076495702e-07
+    ],
+    "raw_probability_sum": 0.9999999367496173,
+    "zero_count": 0,
+    "logits": [
+      -10.37975025177002,
+      -6.704043865203857,
+      4.812158584594727,
+      -3.2954485416412354,
+      -11.59710693359375,
+      -11.178823471069336
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00410",
+    "group": "vla_github_experience_v1/openpi_memory_budget/00410",
+    "question": "next_action",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "schema_audit",
+      "make_split",
+      "compute_stats",
+      "lora_smoke",
+      "run_benchmark",
+      "collect_failures",
+      "calibrate_control",
+      "serve_policy"
+    ],
+    "label": 3,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00410",
+    "p": [
+      3.450167588420421e-08,
+      6.075179815797059e-07,
+      2.2640200316338443e-06,
+      0.999996840421347,
+      2.4017161569595376e-07,
+      4.524486735183109e-09,
+      3.185250982379206e-09,
+      5.657610484038795e-09
+    ],
+    "raw_probability_sum": 1.0000000601373147,
+    "zero_count": 0,
+    "logits": [
+      -7.216977119445801,
+      -4.348604202270508,
+      -3.0330886840820312,
+      9.965276718139648,
+      -5.276632785797119,
+      -9.248481750488281,
+      -9.599454879760742,
+      -9.024984359741211
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00410",
+    "group": "vla_github_experience_v1/openpi_memory_budget/00410",
+    "question": "blocked",
+    "source": "vla_github_experience_v1",
+    "task": "custom_noul",
+    "type": "noul",
+    "variant": "clean",
+    "keys": [
+      "false",
+      "true"
+    ],
+    "label": 0,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00410",
+    "p": [
+      0.9997688145037327,
+      0.00023118549626734958
+    ],
+    "raw_probability_sum": 0.9999999790743459,
+    "zero_count": 0,
+    "logits": [
+      3.9534590244293213,
+      -4.418600082397461
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00410",
+    "group": "vla_github_experience_v1/openpi_memory_budget/00410",
+    "question": "risk",
+    "source": "vla_github_experience_v1",
+    "task": "custom_score",
+    "type": "score",
+    "variant": "clean",
+    "keys": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00410",
+    "p": [
+      6.683793901759431e-05,
+      0.9997098275149955,
+      0.00022219606980206563,
+      1.138476184909129e-06
+    ],
+    "raw_probability_sum": 0.9999999574572485,
+    "zero_count": 0,
+    "logits": [
+      1.1442854404449463,
+      10.757234573364258,
+      2.3455746173858643,
+      -2.928295612335205
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00028",
+    "group": "vla_github_experience_v1/cross_embodiment_action/00028",
+    "question": "research_stage",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "data_contract",
+      "finetune",
+      "benchmark",
+      "real_robot",
+      "deployment",
+      "failure_analysis",
+      "cross_embodiment"
+    ],
+    "label": 6,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00028",
+    "p": [
+      2.599080981871458e-09,
+      0.00037220985533066044,
+      4.86563160093294e-06,
+      2.002042504946116e-09,
+      5.294382116090448e-10,
+      9.406799868221212e-11,
+      0.9996229192884387
+    ],
+    "raw_probability_sum": 0.9999999024826507,
+    "zero_count": 0,
+    "logits": [
+      -10.159541130065918,
+      1.7125132083892822,
+      -2.6247482299804688,
+      -10.4205322265625,
+      -11.750638961791992,
+      -13.478437423706055,
+      9.60818862915039
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00028",
+    "group": "vla_github_experience_v1/cross_embodiment_action/00028",
+    "question": "finetune_mode",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "lora",
+      "head_only",
+      "head_mlp",
+      "full",
+      "scratch"
+    ],
+    "label": 2,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00028",
+    "p": [
+      0.0005803170533776375,
+      2.6360969223822462e-05,
+      0.9993923964934615,
+      4.1316283985675943e-07,
+      5.12321097192803e-07
+    ],
+    "raw_probability_sum": 0.999999993753903,
+    "zero_count": 0,
+    "logits": [
+      2.7143917083740234,
+      -0.37729835510253906,
+      10.165719985961914,
+      -4.533096790313721,
+      -4.317986488342285
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00028",
+    "group": "vla_github_experience_v1/cross_embodiment_action/00028",
+    "question": "action_space",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "match_schema",
+      "unnorm_key",
+      "ee_delta",
+      "joint_position",
+      "action_token"
+    ],
+    "label": 0,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00028",
+    "p": [
+      0.9999838997987424,
+      1.4384927353711714e-06,
+      3.2359960530643287e-07,
+      1.4319947595700278e-05,
+      1.8161321209525027e-08
+    ],
+    "raw_probability_sum": 1.00000000694728,
+    "zero_count": 0,
+    "logits": [
+      9.340936660766602,
+      -4.1109619140625,
+      -5.602806091308594,
+      -1.8129045963287354,
+      -8.483017921447754
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00028",
+    "group": "vla_github_experience_v1/cross_embodiment_action/00028",
+    "question": "split_protocol",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "episode_disjoint",
+      "task_disjoint",
+      "language_disjoint",
+      "embodiment_disjoint",
+      "libero_90_10",
+      "clean_random"
+    ],
+    "label": 3,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00028",
+    "p": [
+      1.4825219581538302e-05,
+      5.322924625701181e-07,
+      8.663288634256972e-10,
+      0.9999846377944681,
+      2.960591909649562e-09,
+      8.665668397064146e-10
+    ],
+    "raw_probability_sum": 1.0000001034180581,
+    "zero_count": 0,
+    "logits": [
+      0.1522405743598938,
+      -3.1746511459350586,
+      -9.59533405303955,
+      11.271406173706055,
+      -8.366455078125,
+      -9.595059394836426
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00028",
+    "group": "vla_github_experience_v1/cross_embodiment_action/00028",
+    "question": "evidence",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "manifest",
+      "per_task",
+      "learning_curve",
+      "normalization",
+      "latency",
+      "video"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00028",
+    "p": [
+      3.493382841900271e-08,
+      0.9997799525515526,
+      0.00021997830908834377,
+      5.532355648280072e-09,
+      8.603557464224099e-10,
+      2.7812819191863445e-08
+    ],
+    "raw_probability_sum": 1.0000000467148609,
+    "zero_count": 0,
+    "logits": [
+      -9.689620018005371,
+      7.4799699783325195,
+      -0.9417914152145386,
+      -11.532461166381836,
+      -13.393485069274902,
+      -9.917579650878906
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00028",
+    "group": "vla_github_experience_v1/cross_embodiment_action/00028",
+    "question": "next_action",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "schema_audit",
+      "make_split",
+      "compute_stats",
+      "lora_smoke",
+      "run_benchmark",
+      "collect_failures",
+      "calibrate_control",
+      "serve_policy"
+    ],
+    "label": 3,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00028",
+    "p": [
+      4.06116758274509e-07,
+      8.36548516569517e-07,
+      1.437168761994683e-07,
+      0.9996682499667511,
+      0.00033032510275214785,
+      1.9807910165552287e-08,
+      1.1395225315251256e-08,
+      7.345210287046764e-09
+    ],
+    "raw_probability_sum": 0.9999999905773032,
+    "zero_count": 0,
+    "logits": [
+      -7.258072853088379,
+      -6.53542947769165,
+      -8.296869277954102,
+      7.4582200050354,
+      -0.5568817853927612,
+      -10.278633117675781,
+      -10.83151912689209,
+      -11.270665168762207
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00028",
+    "group": "vla_github_experience_v1/cross_embodiment_action/00028",
+    "question": "blocked",
+    "source": "vla_github_experience_v1",
+    "task": "custom_noul",
+    "type": "noul",
+    "variant": "clean",
+    "keys": [
+      "false",
+      "true"
+    ],
+    "label": 0,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00028",
+    "p": [
+      0.9999735347573939,
+      2.64652426060755e-05
+    ],
+    "raw_probability_sum": 1.0000000007803465,
+    "zero_count": 0,
+    "logits": [
+      5.407135486602783,
+      -5.132516860961914
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00028",
+    "group": "vla_github_experience_v1/cross_embodiment_action/00028",
+    "question": "risk",
+    "source": "vla_github_experience_v1",
+    "task": "custom_score",
+    "type": "score",
+    "variant": "clean",
+    "keys": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "label": 2,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00028",
+    "p": [
+      0.00031895434621637077,
+      0.0508835803938017,
+      0.9485759907093134,
+      0.00022147455066856347
+    ],
+    "raw_probability_sum": 0.9999999190331437,
+    "zero_count": 0,
+    "logits": [
+      -0.916358470916748,
+      4.15588903427124,
+      7.081310749053955,
+      -1.2810988426208496
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00351",
+    "group": "vla_github_experience_v1/openpi_normalization_drift/00351",
+    "question": "research_stage",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "data_contract",
+      "finetune",
+      "benchmark",
+      "real_robot",
+      "deployment",
+      "failure_analysis",
+      "cross_embodiment"
+    ],
+    "label": 0,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00351",
+    "p": [
+      0.9859293339793195,
+      0.0009650407238637783,
+      2.538820790017898e-06,
+      0.013101649132197756,
+      4.934521006524972e-07,
+      1.3967856272383904e-07,
+      8.04213165614166e-07
+    ],
+    "raw_probability_sum": 1.0000000969154428,
+    "zero_count": 0,
+    "logits": [
+      1.0782878398895264,
+      -5.850881576538086,
+      -11.791352272033691,
+      -3.242558479309082,
+      -13.429381370544434,
+      -14.691463470458984,
+      -12.940942764282227
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00351",
+    "group": "vla_github_experience_v1/openpi_normalization_drift/00351",
+    "question": "data_format",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "rlds",
+      "lerobot",
+      "native",
+      "manifest"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00351",
+    "p": [
+      3.6147503941917595e-08,
+      0.9999984335906352,
+      1.5275996674695813e-06,
+      2.662193310223881e-09
+    ],
+    "raw_probability_sum": 1.0000000166886267,
+    "zero_count": 0,
+    "logits": [
+      -5.326726913452148,
+      11.808929443359375,
+      -1.582882285118103,
+      -7.935185432434082
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00351",
+    "group": "vla_github_experience_v1/openpi_normalization_drift/00351",
+    "question": "normalization",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "recompute",
+      "reuse",
+      "compare",
+      "audit"
+    ],
+    "label": 2,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00351",
+    "p": [
+      5.220420705791565e-07,
+      2.3278989223934613e-08,
+      0.9999994391721456,
+      1.5506794544959258e-08
+    ],
+    "raw_probability_sum": 1.0000000839907432,
+    "zero_count": 0,
+    "logits": [
+      -3.7295916080474854,
+      -6.839788913726807,
+      10.735925674438477,
+      -7.246060371398926
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00351",
+    "group": "vla_github_experience_v1/openpi_normalization_drift/00351",
+    "question": "failure_mode",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "data_quality",
+      "language_shift",
+      "camera_shift",
+      "action_scale",
+      "task_shift",
+      "control_loop"
+    ],
+    "label": 3,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00351",
+    "p": [
+      1.4294742032845797e-09,
+      2.5804597998593246e-11,
+      1.5335595614985407e-11,
+      0.9999999983298853,
+      3.0923142467200896e-11,
+      1.6857744338950377e-10
+    ],
+    "raw_probability_sum": 1.0000000016701147,
+    "zero_count": 0,
+    "logits": [
+      -8.646713256835938,
+      -12.661222457885742,
+      -13.181598663330078,
+      11.719245910644531,
+      -12.480271339416504,
+      -10.784379959106445
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00351",
+    "group": "vla_github_experience_v1/openpi_normalization_drift/00351",
+    "question": "evidence",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "manifest",
+      "per_task",
+      "learning_curve",
+      "normalization",
+      "latency",
+      "video"
+    ],
+    "label": 3,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00351",
+    "p": [
+      1.1549327982208041e-09,
+      1.3221148971358762e-10,
+      5.136707646542229e-10,
+      0.9999999845627106,
+      1.67295882895552e-10,
+      1.3469178453368545e-08
+    ],
+    "raw_probability_sum": 1.0000000154372897,
+    "zero_count": 0,
+    "logits": [
+      -12.232603073120117,
+      -14.399998664855957,
+      -13.04281997680664,
+      8.346619606018066,
+      -14.164636611938477,
+      -9.77624225616455
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00351",
+    "group": "vla_github_experience_v1/openpi_normalization_drift/00351",
+    "question": "next_action",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "schema_audit",
+      "make_split",
+      "compute_stats",
+      "lora_smoke",
+      "run_benchmark",
+      "collect_failures",
+      "calibrate_control",
+      "serve_policy"
+    ],
+    "label": 2,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00351",
+    "p": [
+      9.237453453004039e-10,
+      2.532233277156935e-10,
+      0.9999933105497302,
+      2.3018492040593942e-07,
+      2.4274573684253053e-10,
+      3.4684882267489977e-10,
+      6.457127622088826e-06,
+      3.711639000700926e-10
+    ],
+    "raw_probability_sum": 1.0000000137301468,
+    "zero_count": 0,
+    "logits": [
+      -11.482451438903809,
+      -12.776615142822266,
+      9.320127487182617,
+      -5.9642486572265625,
+      -12.818872451782227,
+      -12.461997985839844,
+      -2.6301915645599365,
+      -12.394243240356445
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00351",
+    "group": "vla_github_experience_v1/openpi_normalization_drift/00351",
+    "question": "blocked",
+    "source": "vla_github_experience_v1",
+    "task": "custom_noul",
+    "type": "noul",
+    "variant": "clean",
+    "keys": [
+      "false",
+      "true"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00351",
+    "p": [
+      0.0001049753314390696,
+      0.999895024668561
+    ],
+    "raw_probability_sum": 0.9999999519423,
+    "zero_count": 0,
+    "logits": [
+      1.366461992263794,
+      10.528141975402832
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00351",
+    "group": "vla_github_experience_v1/openpi_normalization_drift/00351",
+    "question": "risk",
+    "source": "vla_github_experience_v1",
+    "task": "custom_score",
+    "type": "score",
+    "variant": "clean",
+    "keys": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "label": 2,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00351",
+    "p": [
+      9.321251403237569e-06,
+      0.001278087759118835,
+      0.9542121238531898,
+      0.044500467136288156
+    ],
+    "raw_probability_sum": 1.0000000679801815,
+    "zero_count": 0,
+    "logits": [
+      -3.557558059692383,
+      1.3632651567459106,
+      7.978785991668701,
+      4.913399696350098
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00469",
+    "group": "vla_github_experience_v1/octo_target_adaptation/00469",
+    "question": "research_stage",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "data_contract",
+      "finetune",
+      "benchmark",
+      "real_robot",
+      "deployment",
+      "failure_analysis",
+      "cross_embodiment"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00469",
+    "p": [
+      1.9889189495213367e-06,
+      0.999774878606917,
+      5.7351492011961806e-05,
+      1.665982162924217e-06,
+      1.3443191236637465e-06,
+      2.76747671594762e-07,
+      0.00016249393316330427
+    ],
+    "raw_probability_sum": 0.9999999946485616,
+    "zero_count": 0,
+    "logits": [
+      -10.602666854858398,
+      2.52502703666687,
+      -7.24105978012085,
+      -10.7798433303833,
+      -10.994370460510254,
+      -12.574907302856445,
+      -6.199617862701416
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00469",
+    "group": "vla_github_experience_v1/octo_target_adaptation/00469",
+    "question": "finetune_mode",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "lora",
+      "head_only",
+      "head_mlp",
+      "full",
+      "scratch"
+    ],
+    "label": 2,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00469",
+    "p": [
+      0.00030575138664651856,
+      0.0004513023736830306,
+      0.9992420341252422,
+      8.846799620822409e-07,
+      2.7434466230645224e-08
+    ],
+    "raw_probability_sum": 1.0000000332369865,
+    "zero_count": 0,
+    "logits": [
+      0.8279036283493042,
+      1.2172688245773315,
+      8.919883728027344,
+      -5.017397880554199,
+      -8.490823745727539
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00469",
+    "group": "vla_github_experience_v1/octo_target_adaptation/00469",
+    "question": "action_space",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "match_schema",
+      "unnorm_key",
+      "ee_delta",
+      "joint_position",
+      "action_token"
+    ],
+    "label": 0,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00469",
+    "p": [
+      0.9999016039704064,
+      8.179720896085599e-05,
+      4.376817142618558e-06,
+      1.7276598869888703e-06,
+      1.0494343603131584e-05
+    ],
+    "raw_probability_sum": 0.9999999291494532,
+    "zero_count": 0,
+    "logits": [
+      1.6247364282608032,
+      -7.786432266235352,
+      -10.714353561401367,
+      -11.64390754699707,
+      -9.839838981628418
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00469",
+    "group": "vla_github_experience_v1/octo_target_adaptation/00469",
+    "question": "benchmark",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "libero",
+      "robotwin",
+      "bridge",
+      "custom_gym",
+      "real_rollout"
+    ],
+    "label": 3,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00469",
+    "p": [
+      3.7019485769352727e-06,
+      1.4325377428488873e-05,
+      2.8837142142501853e-07,
+      0.9999815817678803,
+      1.0253469280125303e-07
+    ],
+    "raw_probability_sum": 1.000000060002634,
+    "zero_count": 0,
+    "logits": [
+      -6.384840488433838,
+      -5.0316667556762695,
+      -8.937206268310547,
+      6.121792316436768,
+      -9.971253395080566
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00469",
+    "group": "vla_github_experience_v1/octo_target_adaptation/00469",
+    "question": "evidence",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "manifest",
+      "per_task",
+      "learning_curve",
+      "normalization",
+      "latency",
+      "video"
+    ],
+    "label": 2,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00469",
+    "p": [
+      8.965803485852425e-10,
+      3.3347111464565923e-06,
+      0.9999966432675359,
+      8.688661293003153e-10,
+      1.2830750664042476e-09,
+      1.8972796309009052e-08
+    ],
+    "raw_probability_sum": 1.00000001887242,
+    "zero_count": 0,
+    "logits": [
+      -14.741584777832031,
+      -6.520275592803955,
+      6.090845584869385,
+      -14.772982597351074,
+      -14.383157730102539,
+      -11.689410209655762
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00469",
+    "group": "vla_github_experience_v1/octo_target_adaptation/00469",
+    "question": "next_action",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "schema_audit",
+      "make_split",
+      "compute_stats",
+      "lora_smoke",
+      "run_benchmark",
+      "collect_failures",
+      "calibrate_control",
+      "serve_policy"
+    ],
+    "label": 3,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00469",
+    "p": [
+      1.0662411367663567e-09,
+      2.2189221453625036e-08,
+      5.188441559312355e-10,
+      0.9999999346570303,
+      4.042771186773871e-08,
+      4.954095143475857e-10,
+      2.8421316219654504e-10,
+      3.613283880252261e-10
+    ],
+    "raw_probability_sum": 1.000000065342974,
+    "zero_count": 0,
+    "logits": [
+      -10.799708366394043,
+      -7.764241695404053,
+      -11.520000457763672,
+      9.859416961669922,
+      -7.164332866668701,
+      -11.566218376159668,
+      -12.121879577636719,
+      -11.881816864013672
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00469",
+    "group": "vla_github_experience_v1/octo_target_adaptation/00469",
+    "question": "blocked",
+    "source": "vla_github_experience_v1",
+    "task": "custom_noul",
+    "type": "noul",
+    "variant": "clean",
+    "keys": [
+      "false",
+      "true"
+    ],
+    "label": 0,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00469",
+    "p": [
+      0.9999798606475857,
+      2.0139352414294302e-05
+    ],
+    "raw_probability_sum": 0.9999999929823389,
+    "zero_count": 0,
+    "logits": [
+      2.005866765975952,
+      -8.806947708129883
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00469",
+    "group": "vla_github_experience_v1/octo_target_adaptation/00469",
+    "question": "risk",
+    "source": "vla_github_experience_v1",
+    "task": "custom_score",
+    "type": "score",
+    "variant": "clean",
+    "keys": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00469",
+    "p": [
+      9.913573235666387e-05,
+      0.9986859188828413,
+      0.0012143994954968815,
+      5.458893051711497e-07
+    ],
+    "raw_probability_sum": 0.9999999774842081,
+    "zero_count": 0,
+    "logits": [
+      0.17238140106201172,
+      9.390087127685547,
+      2.677896499633789,
+      -5.02944803237915
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00244",
+    "group": "vla_github_experience_v1/octo_target_adaptation/00244",
+    "question": "research_stage",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "data_contract",
+      "finetune",
+      "benchmark",
+      "real_robot",
+      "deployment",
+      "failure_analysis",
+      "cross_embodiment"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00244",
+    "p": [
+      3.6873402929161956e-06,
+      0.9999615022138292,
+      2.334261096157238e-05,
+      7.990906337794389e-07,
+      5.542492014254555e-07,
+      1.2281805167753642e-07,
+      9.991677029452274e-06
+    ],
+    "raw_probability_sum": 0.9999999931853836,
+    "zero_count": 0,
+    "logits": [
+      -9.821510314941406,
+      2.689055919647217,
+      -7.976136207580566,
+      -11.350696563720703,
+      -11.716556549072266,
+      -13.223466873168945,
+      -8.824664115905762
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00244",
+    "group": "vla_github_experience_v1/octo_target_adaptation/00244",
+    "question": "finetune_mode",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "lora",
+      "head_only",
+      "head_mlp",
+      "full",
+      "scratch"
+    ],
+    "label": 2,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00244",
+    "p": [
+      0.00017224650412410813,
+      0.000302268004610219,
+      0.9995242891789329,
+      1.1695052023858652e-06,
+      2.6807130394699355e-08
+    ],
+    "raw_probability_sum": 0.9999999465210294,
+    "zero_count": 0,
+    "logits": [
+      1.614699125289917,
+      2.1770870685577393,
+      10.280807495117188,
+      -3.3776466846466064,
+      -7.153314113616943
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00244",
+    "group": "vla_github_experience_v1/octo_target_adaptation/00244",
+    "question": "action_space",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "match_schema",
+      "unnorm_key",
+      "ee_delta",
+      "joint_position",
+      "action_token"
+    ],
+    "label": 0,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00244",
+    "p": [
+      0.9999444076197144,
+      4.33076854564215e-05,
+      1.492393952125927e-06,
+      1.428018093100396e-06,
+      9.364282784034864e-06
+    ],
+    "raw_probability_sum": 0.9999999216377091,
+    "zero_count": 0,
+    "logits": [
+      2.5231528282165527,
+      -7.523972511291504,
+      -10.89192008972168,
+      -10.936015129089355,
+      -9.055398941040039
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00244",
+    "group": "vla_github_experience_v1/octo_target_adaptation/00244",
+    "question": "benchmark",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "libero",
+      "robotwin",
+      "bridge",
+      "custom_gym",
+      "real_rollout"
+    ],
+    "label": 3,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00244",
+    "p": [
+      4.777288640136769e-06,
+      3.5157721096002633e-06,
+      1.751918093347041e-07,
+      0.9999914236413247,
+      1.0810611633159887e-07
+    ],
+    "raw_probability_sum": 1.0000001125000821,
+    "zero_count": 0,
+    "logits": [
+      -6.314610004425049,
+      -6.621223449707031,
+      -9.620356559753418,
+      5.937019348144531,
+      -10.103124618530273
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00244",
+    "group": "vla_github_experience_v1/octo_target_adaptation/00244",
+    "question": "evidence",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "manifest",
+      "per_task",
+      "learning_curve",
+      "normalization",
+      "latency",
+      "video"
+    ],
+    "label": 2,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00244",
+    "p": [
+      2.689124199270006e-07,
+      1.2925541308826436e-05,
+      0.9999861203681061,
+      9.463672443934465e-08,
+      4.0200475012208946e-08,
+      5.503409657285805e-07
+    ],
+    "raw_probability_sum": 0.9999999321440747,
+    "zero_count": 0,
+    "logits": [
+      -12.931611061096191,
+      -9.059036254882812,
+      2.1972551345825195,
+      -13.9759521484375,
+      -14.832118034362793,
+      -12.215458869934082
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00244",
+    "group": "vla_github_experience_v1/octo_target_adaptation/00244",
+    "question": "next_action",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "schema_audit",
+      "make_split",
+      "compute_stats",
+      "lora_smoke",
+      "run_benchmark",
+      "collect_failures",
+      "calibrate_control",
+      "serve_policy"
+    ],
+    "label": 3,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00244",
+    "p": [
+      6.755204652071284e-10,
+      3.997102603392065e-09,
+      3.8665120664947506e-10,
+      0.9999999886229723,
+      5.6561066297688526e-09,
+      2.8770491217382445e-10,
+      1.7011523940262556e-10,
+      2.0382664768368392e-10
+    ],
+    "raw_probability_sum": 1.0000000113770278,
+    "zero_count": 0,
+    "logits": [
+      -11.085145950317383,
+      -9.307303428649902,
+      -11.643106460571289,
+      10.030391693115234,
+      -8.960138320922852,
+      -11.938693046569824,
+      -12.464153289794922,
+      -12.283360481262207
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00244",
+    "group": "vla_github_experience_v1/octo_target_adaptation/00244",
+    "question": "blocked",
+    "source": "vla_github_experience_v1",
+    "task": "custom_noul",
+    "type": "noul",
+    "variant": "clean",
+    "keys": [
+      "false",
+      "true"
+    ],
+    "label": 0,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00244",
+    "p": [
+      0.9999943494806723,
+      5.650519327677624e-06
+    ],
+    "raw_probability_sum": 1.0000000476829882,
+    "zero_count": 0,
+    "logits": [
+      1.9441555738449097,
+      -10.139601707458496
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00244",
+    "group": "vla_github_experience_v1/octo_target_adaptation/00244",
+    "question": "risk",
+    "source": "vla_github_experience_v1",
+    "task": "custom_score",
+    "type": "score",
+    "variant": "clean",
+    "keys": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00244",
+    "p": [
+      0.00012400439048573168,
+      0.9972503557212757,
+      0.0026247399147220777,
+      8.999735164702075e-07
+    ],
+    "raw_probability_sum": 0.9999999029344053,
+    "zero_count": 0,
+    "logits": [
+      -0.662431001663208,
+      8.330009460449219,
+      2.3899893760681152,
+      -5.588137626647949
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00422",
+    "group": "vla_github_experience_v1/robotwin_clean_random/00422",
+    "question": "research_stage",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "data_contract",
+      "finetune",
+      "benchmark",
+      "real_robot",
+      "deployment",
+      "failure_analysis",
+      "cross_embodiment"
+    ],
+    "label": 2,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00422",
+    "p": [
+      3.1788754450897606e-09,
+      1.2563221999345516e-07,
+      0.9999998297976316,
+      2.9628019414718655e-08,
+      5.577757415732153e-10,
+      6.52438014762338e-10,
+      1.0553039681331051e-08
+    ],
+    "raw_probability_sum": 1.0000000509930875,
+    "zero_count": 0,
+    "logits": [
+      -8.895631790161133,
+      -5.2188005447387695,
+      10.671106338500977,
+      -6.663439750671387,
+      -10.635956764221191,
+      -10.479198455810547,
+      -7.695746421813965
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00422",
+    "group": "vla_github_experience_v1/robotwin_clean_random/00422",
+    "question": "split_protocol",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "episode_disjoint",
+      "task_disjoint",
+      "language_disjoint",
+      "embodiment_disjoint",
+      "libero_90_10",
+      "clean_random"
+    ],
+    "label": 5,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00422",
+    "p": [
+      3.656810341736018e-09,
+      4.850857271087335e-07,
+      1.37722656851614e-07,
+      6.93617137356047e-11,
+      4.667767879735533e-08,
+      0.9999993267877652
+    ],
+    "raw_probability_sum": 0.9999999579564692,
+    "zero_count": 0,
+    "logits": [
+      -7.262290000915527,
+      -2.374556541442871,
+      -3.633640766143799,
+      -11.227303504943848,
+      -4.715616703033447,
+      12.164382934570312
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00422",
+    "group": "vla_github_experience_v1/robotwin_clean_random/00422",
+    "question": "benchmark",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "libero",
+      "robotwin",
+      "bridge",
+      "custom_gym",
+      "real_rollout"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00422",
+    "p": [
+      6.787809996984925e-08,
+      0.9999999126224529,
+      4.528101149400714e-09,
+      1.1483501626551396e-08,
+      3.4878443466742455e-09
+    ],
+    "raw_probability_sum": 0.9999999681682548,
+    "zero_count": 0,
+    "logits": [
+      -2.6853785514831543,
+      13.820173263549805,
+      -5.392790794372559,
+      -4.4621806144714355,
+      -5.653808116912842
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00422",
+    "group": "vla_github_experience_v1/robotwin_clean_random/00422",
+    "question": "eval_protocol",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "task_100",
+      "suite_50",
+      "real_10",
+      "fixed_seed",
+      "clean_random"
+    ],
+    "label": 4,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00422",
+    "p": [
+      2.1606728087477422e-10,
+      3.005226403562515e-06,
+      4.3820896361185565e-09,
+      8.29282566729487e-09,
+      0.9999969818826138
+    ],
+    "raw_probability_sum": 1.0000000378852618,
+    "zero_count": 0,
+    "logits": [
+      -7.745547294616699,
+      1.794727087020874,
+      -4.735855579376221,
+      -4.097990989685059,
+      14.509881973266602
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00422",
+    "group": "vla_github_experience_v1/robotwin_clean_random/00422",
+    "question": "evidence",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "manifest",
+      "per_task",
+      "learning_curve",
+      "normalization",
+      "latency",
+      "video"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00422",
+    "p": [
+      2.378535023869706e-08,
+      0.9999994643707276,
+      8.27739562497537e-08,
+      1.713762346768015e-09,
+      2.93086883595406e-09,
+      4.2442533476271803e-07
+    ],
+    "raw_probability_sum": 0.9999999395827923,
+    "zero_count": 0,
+    "logits": [
+      -10.019779205322266,
+      7.534417152404785,
+      -8.772733688354492,
+      -12.65015697479248,
+      -12.11354923248291,
+      -7.138111591339111
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00422",
+    "group": "vla_github_experience_v1/robotwin_clean_random/00422",
+    "question": "next_action",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "schema_audit",
+      "make_split",
+      "compute_stats",
+      "lora_smoke",
+      "run_benchmark",
+      "collect_failures",
+      "calibrate_control",
+      "serve_policy"
+    ],
+    "label": 4,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00422",
+    "p": [
+      9.250703279276031e-10,
+      1.4317988367435913e-09,
+      6.451924757923381e-10,
+      3.114100011543492e-08,
+      0.9999999129898297,
+      5.198521602933276e-08,
+      2.968823893504381e-10,
+      5.85010170269455e-10
+    ],
+    "raw_probability_sum": 0.999999967800878,
+    "zero_count": 0,
+    "logits": [
+      -9.806268692016602,
+      -9.369452476501465,
+      -10.166590690612793,
+      -6.289856910705566,
+      10.994882583618164,
+      -5.777423858642578,
+      -10.942802429199219,
+      -10.264510154724121
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00422",
+    "group": "vla_github_experience_v1/robotwin_clean_random/00422",
+    "question": "blocked",
+    "source": "vla_github_experience_v1",
+    "task": "custom_noul",
+    "type": "noul",
+    "variant": "clean",
+    "keys": [
+      "false",
+      "true"
+    ],
+    "label": 0,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00422",
+    "p": [
+      0.9998825345298654,
+      0.00011746547013463245
+    ],
+    "raw_probability_sum": 1.0000000443251338,
+    "zero_count": 0,
+    "logits": [
+      3.8061716556549072,
+      -5.243077278137207
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00422",
+    "group": "vla_github_experience_v1/robotwin_clean_random/00422",
+    "question": "risk",
+    "source": "vla_github_experience_v1",
+    "task": "custom_score",
+    "type": "score",
+    "variant": "clean",
+    "keys": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "label": 2,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00422",
+    "p": [
+      4.937043404275115e-06,
+      0.0001585000755914187,
+      0.9995827589284849,
+      0.0002538039525193572
+    ],
+    "raw_probability_sum": 1.0000000681911843,
+    "zero_count": 0,
+    "logits": [
+      -1.3664032220840454,
+      2.1025853157043457,
+      10.851922988891602,
+      2.573391914367676
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00188",
+    "group": "vla_github_experience_v1/openx_metadata_gap/00188",
+    "question": "research_stage",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "data_contract",
+      "finetune",
+      "benchmark",
+      "real_robot",
+      "deployment",
+      "failure_analysis",
+      "cross_embodiment"
+    ],
+    "label": 6,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00188",
+    "p": [
+      2.3386430618151123e-07,
+      7.51723680007515e-06,
+      3.2058207612489134e-07,
+      1.7646891816274244e-07,
+      2.995848959493401e-09,
+      2.905879974394072e-10,
+      0.9999917485614624
+    ],
+    "raw_probability_sum": 0.9999999067874998,
+    "zero_count": 0,
+    "logits": [
+      -6.074350833892822,
+      -2.6041388511657715,
+      -5.75895357131958,
+      -6.355947494506836,
+      -10.431865692138672,
+      -12.764942169189453,
+      9.194165229797363
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00188",
+    "group": "vla_github_experience_v1/openx_metadata_gap/00188",
+    "question": "data_format",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "rlds",
+      "lerobot",
+      "native",
+      "manifest"
+    ],
+    "label": 0,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00188",
+    "p": [
+      0.9974909252973614,
+      0.001129768003354645,
+      1.2477674039386063e-06,
+      0.001378058931880007
+    ],
+    "raw_probability_sum": 1.0000000769786084,
+    "zero_count": 0,
+    "logits": [
+      5.215038776397705,
+      -1.5681918859481812,
+      -8.376604080200195,
+      -1.3695285320281982
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00188",
+    "group": "vla_github_experience_v1/openx_metadata_gap/00188",
+    "question": "action_space",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "match_schema",
+      "unnorm_key",
+      "ee_delta",
+      "joint_position",
+      "action_token"
+    ],
+    "label": 0,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00188",
+    "p": [
+      0.9999965662410498,
+      2.925966396099366e-06,
+      1.1032343651560152e-07,
+      2.6918144785592912e-08,
+      3.7055097277270197e-07
+    ],
+    "raw_probability_sum": 0.9999999766894732,
+    "zero_count": 0,
+    "logits": [
+      9.46761703491211,
+      -3.2742652893066406,
+      -6.5522284507751465,
+      -7.9628448486328125,
+      -5.3406548500061035
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00188",
+    "group": "vla_github_experience_v1/openx_metadata_gap/00188",
+    "question": "split_protocol",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "episode_disjoint",
+      "task_disjoint",
+      "language_disjoint",
+      "embodiment_disjoint",
+      "libero_90_10",
+      "clean_random"
+    ],
+    "label": 3,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00188",
+    "p": [
+      4.2936768026965557e-07,
+      0.00029191156935801023,
+      3.7099861514968056e-09,
+      0.9997076541415707,
+      1.050372915449612e-09,
+      1.610320095771876e-10
+    ],
+    "raw_probability_sum": 0.9999999850714417,
+    "zero_count": 0,
+    "logits": [
+      -0.9257746338844299,
+      5.596117973327637,
+      -5.677061080932617,
+      13.734885215759277,
+      -6.9389424324035645,
+      -8.814239501953125
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00188",
+    "group": "vla_github_experience_v1/openx_metadata_gap/00188",
+    "question": "evidence",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "manifest",
+      "per_task",
+      "learning_curve",
+      "normalization",
+      "latency",
+      "video"
+    ],
+    "label": 0,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00188",
+    "p": [
+      0.999956296931436,
+      4.0996576656878205e-05,
+      1.6937137752746765e-07,
+      3.73507331306759e-09,
+      2.0835369323107495e-06,
+      4.498485240260179e-07
+    ],
+    "raw_probability_sum": 1.0000000724717557,
+    "zero_count": 0,
+    "logits": [
+      4.0881195068359375,
+      -6.013858795166016,
+      -11.503008842468262,
+      -15.31733512878418,
+      -8.993280410766602,
+      -10.526191711425781
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00188",
+    "group": "vla_github_experience_v1/openx_metadata_gap/00188",
+    "question": "next_action",
+    "source": "vla_github_experience_v1",
+    "task": "custom_choice",
+    "type": "choice",
+    "variant": "clean",
+    "keys": [
+      "schema_audit",
+      "make_split",
+      "compute_stats",
+      "lora_smoke",
+      "run_benchmark",
+      "collect_failures",
+      "calibrate_control",
+      "serve_policy"
+    ],
+    "label": 0,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00188",
+    "p": [
+      0.9492193558131115,
+      0.000259788984296987,
+      1.399049933056005e-06,
+      0.05048534381561144,
+      3.3627928186156084e-05,
+      2.932226680719053e-07,
+      7.45306852626723e-08,
+      1.1665550756842974e-07
+    ],
+    "raw_probability_sum": 1.000000052504177,
+    "zero_count": 0,
+    "logits": [
+      3.638061285018921,
+      -4.565464019775391,
+      -9.78954029083252,
+      0.7041044235229492,
+      -6.609976768493652,
+      -11.352156639099121,
+      -12.721878051757812,
+      -12.273863792419434
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00188",
+    "group": "vla_github_experience_v1/openx_metadata_gap/00188",
+    "question": "blocked",
+    "source": "vla_github_experience_v1",
+    "task": "custom_noul",
+    "type": "noul",
+    "variant": "clean",
+    "keys": [
+      "false",
+      "true"
+    ],
+    "label": 1,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00188",
+    "p": [
+      0.0026206768183035037,
+      0.9973793231816965
+    ],
+    "raw_probability_sum": 0.999999979743734,
+    "zero_count": 0,
+    "logits": [
+      3.303147792816162,
+      9.24484634399414
+    ],
+    "inference_temperature": 1.0
+  },
+  {
+    "id": "vla_github_experience_v1/test/00188",
+    "group": "vla_github_experience_v1/openx_metadata_gap/00188",
+    "question": "risk",
+    "source": "vla_github_experience_v1",
+    "task": "custom_score",
+    "type": "score",
+    "variant": "clean",
+    "keys": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "label": 2,
+    "control_id": null,
+    "pair_id": null,
+    "sibling": null,
+    "parent": "vla_github_experience_v1/test/00188",
+    "p": [
+      7.003183406291954e-05,
+      0.007126749480840471,
+      0.9916939122193206,
+      0.001109306465776063
+    ],
+    "raw_probability_sum": 1.000000001731678,
+    "zero_count": 0,
+    "logits": [
+      -0.4976484179496765,
+      4.125012397766113,
+      9.060571670532227,
+      2.264892101287842
+    ],
+    "inference_temperature": 1.0
+  }
+]

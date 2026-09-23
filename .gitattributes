@@ -1,3 +1,4 @@
 # Frozen suites and their manifests are sha256-checked byte for byte: never convert their line endings on checkout.
 *.json text eol=lf
 *.jsonl text eol=lf
+deploy/wheels/triton-3.7.1-*.whl filter=lfs diff=lfs merge=lfs -text

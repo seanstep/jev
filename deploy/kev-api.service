@@ -1,0 +1,27 @@
+[Unit]
+Description=Kev-4B local decision API
+After=network.target
+StartLimitIntervalSec=300
+StartLimitBurst=3
+
+[Service]
+Type=simple
+WorkingDirectory=/data/ssd/xyt/data/jev
+Environment=CUDA_VISIBLE_DEVICES=0
+Environment=KEV_DTYPE=bf16
+Environment=HF_HUB_OFFLINE=1
+Environment=TRANSFORMERS_OFFLINE=1
+Environment=HF_HOME=/data/ssd/xyt/data/jev/.cache/huggingface
+Environment=TRITON_CACHE_DIR=/data/ssd/xyt/data/jev/.cache/triton
+Environment=OMP_NUM_THREADS=8
+Environment=PYTHONUNBUFFERED=1
+UnsetEnvironment=HTTP_PROXY HTTPS_PROXY ALL_PROXY http_proxy https_proxy all_proxy
+ExecStart=/data/ssd/xyt/data/jev/.venv/bin/python deploy/serve_local.py
+Restart=on-failure
+RestartSec=15
+TimeoutStopSec=30
+StandardOutput=append:/data/ssd/xyt/data/jev/deploy/logs/api.log
+StandardError=append:/data/ssd/xyt/data/jev/deploy/logs/api.log
+
+[Install]
+WantedBy=default.target

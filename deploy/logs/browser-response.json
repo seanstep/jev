@@ -1,0 +1,29 @@
+{
+  "model": "kev-latest",
+  "answers": {
+    "topic": {
+      "type": "choice",
+      "choice": "business",
+      "confidence": 0.96,
+      "probabilities": {
+        "world": 0.01,
+        "sports": 0,
+        "business": 0.97,
+        "scitech": 0.01
+      }
+    },
+    "is_sports": {
+      "type": "noul",
+      "noul": 0.01
+    },
+    "is_business": {
+      "type": "noul",
+      "noul": 0.96
+    }
+  },
+  "usage": {
+    "input_tokens": 135,
+    "output_tokens": 107
+  },
+  "latency_ms": 95.8
+}

@@ -1,0 +1,21 @@
+[Unit]
+Description=Kev VLA experience decision API (Qwen3.5-4B)
+After=default.target
+
+[Service]
+Type=simple
+WorkingDirectory=/data/ssd/xyt/data/jev
+Environment=CUDA_VISIBLE_DEVICES=2
+Environment=HF_HUB_OFFLINE=1
+Environment=TRANSFORMERS_OFFLINE=1
+Environment=TOKENIZERS_PARALLELISM=false
+Environment=PYTHONUNBUFFERED=1
+UnsetEnvironment=HTTP_PROXY HTTPS_PROXY ALL_PROXY http_proxy https_proxy all_proxy
+ExecStart=/data/ssd/xyt/data/jev/.venv/bin/python -m kev.serve --run research/runs/vla-exp-qwen35-4b-v2 --port 8014
+Restart=on-failure
+RestartSec=5
+StandardOutput=append:/data/ssd/xyt/data/jev/deploy/logs/vla-4b-serve.log
+StandardError=append:/data/ssd/xyt/data/jev/deploy/logs/vla-4b-serve.log
+
+[Install]
+WantedBy=default.target

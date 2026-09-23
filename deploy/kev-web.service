@@ -1,0 +1,20 @@
+[Unit]
+Description=Kev web playground (production)
+After=kev-api.service
+
+[Service]
+Type=simple
+WorkingDirectory=/data/ssd/xyt/data/jev/playground
+Environment=NODE_ENV=production
+Environment=NEXT_TELEMETRY_DISABLED=1
+Environment=KEV_API=http://127.0.0.1:8009
+Environment=VLA_API=http://127.0.0.1:8014
+UnsetEnvironment=HTTP_PROXY HTTPS_PROXY ALL_PROXY http_proxy https_proxy all_proxy
+ExecStart=/home/yutongxiao/miniforge3/bin/node node_modules/next/dist/bin/next start --hostname 0.0.0.0 --port 3001
+Restart=on-failure
+RestartSec=5
+StandardOutput=append:/data/ssd/xyt/data/jev/deploy/logs/web.log
+StandardError=append:/data/ssd/xyt/data/jev/deploy/logs/web.log
+
+[Install]
+WantedBy=default.target

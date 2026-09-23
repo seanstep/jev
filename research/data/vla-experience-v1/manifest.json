@@ -1,0 +1,124 @@
+{
+  "version": "vla-experience-v1",
+  "generator": "research/build_experience_dataset.py",
+  "knowledge_version": "vla-github-review-2026-09-23",
+  "counts": {
+    "train": {
+      "records": 1600,
+      "questions": 12375
+    },
+    "dev": {
+      "records": 240,
+      "questions": 1856
+    },
+    "test": {
+      "records": 480,
+      "questions": 3712
+    }
+  },
+  "question_counts": {
+    "train": {
+      "action_space": 640,
+      "benchmark": 746,
+      "blocked": 1600,
+      "data_format": 428,
+      "eval_protocol": 427,
+      "evidence": 1600,
+      "failure_mode": 532,
+      "finetune_mode": 427,
+      "gpu_plan": 107,
+      "next_action": 1600,
+      "normalization": 321,
+      "research_stage": 1600,
+      "risk": 1600,
+      "split_protocol": 747
+    },
+    "dev": {
+      "action_space": 96,
+      "benchmark": 112,
+      "blocked": 240,
+      "data_format": 64,
+      "eval_protocol": 64,
+      "evidence": 240,
+      "failure_mode": 80,
+      "finetune_mode": 64,
+      "gpu_plan": 16,
+      "next_action": 240,
+      "normalization": 48,
+      "research_stage": 240,
+      "risk": 240,
+      "split_protocol": 112
+    },
+    "test": {
+      "action_space": 192,
+      "benchmark": 224,
+      "blocked": 480,
+      "data_format": 128,
+      "eval_protocol": 128,
+      "evidence": 480,
+      "failure_mode": 160,
+      "finetune_mode": 128,
+      "gpu_plan": 32,
+      "next_action": 480,
+      "normalization": 96,
+      "research_stage": 480,
+      "risk": 480,
+      "split_protocol": 224
+    }
+  },
+  "projects": [
+    {
+      "id": "openvla",
+      "name": "OpenVLA",
+      "repo": "https://github.com/openvla/openvla"
+    },
+    {
+      "id": "lerobot",
+      "name": "LeRobot",
+      "repo": "https://github.com/huggingface/lerobot"
+    },
+    {
+      "id": "robotwin",
+      "name": "RoboTwin 2.0",
+      "repo": "https://github.com/RoboTwin-Platform/RoboTwin"
+    },
+    {
+      "id": "libero",
+      "name": "LIBERO",
+      "repo": "https://github.com/Lifelong-Robot-Learning/LIBERO"
+    },
+    {
+      "id": "octo",
+      "name": "Octo",
+      "repo": "https://github.com/octo-models/octo"
+    },
+    {
+      "id": "openpi",
+      "name": "openpi / Pi0",
+      "repo": "https://github.com/Physical-Intelligence/openpi"
+    },
+    {
+      "id": "openx",
+      "name": "Open X-Embodiment",
+      "repo": "https://github.com/google-deepmind/open_x_embodiment"
+    }
+  ],
+  "case_families": [
+    "lerobot_missing_contract",
+    "openvla_rlds_mix",
+    "robotwin_clean_random",
+    "libero_transfer_leak",
+    "octo_target_adaptation",
+    "openpi_memory_budget",
+    "openpi_normalization_drift",
+    "openvla_unnorm_key",
+    "openx_metadata_gap",
+    "real_rollout_small_n",
+    "robotwin_language_shift",
+    "deployment_watchdog",
+    "failure_camera_shift",
+    "cross_embodiment_action",
+    "benchmark_reporting"
+  ],
+  "note": "Programmatic, source-grounded research decision data; not visual-action trajectories."
+}

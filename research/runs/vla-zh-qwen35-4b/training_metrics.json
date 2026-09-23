@@ -1,0 +1,14 @@
+{
+  "wall_seconds": 831.9604196548462,
+  "records_seen": 1200,
+  "requested_records": 1200,
+  "truncated_records": 0,
+  "rejected_records": 0,
+  "optimizer_steps": 150,
+  "forward_tokens": 431516,
+  "peak_device_bytes": 9304310272,
+  "device": "cuda",
+  "dtype": "bf16",
+  "batch": 1,
+  "peak_rss_bytes": 9749491712
+}

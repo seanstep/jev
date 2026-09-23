@@ -1,0 +1,1 @@
+{"models":[{"id":"kev-latest","aliases":["jev-latest"],"run":"/data/ssd/xyt/data/jev/models/kev-4b","base":"/data/ssd/xyt/data/jev/models/Qwen3.5-4B-Base","lora":16,"device":"cuda","temperature":2.1435469250725863,"prefix_cache":{"size":4,"min_state_tokens":384,"hits":0,"misses":0,"cached_states":0}}]}

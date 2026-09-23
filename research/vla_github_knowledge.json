@@ -1,0 +1,90 @@
+{
+  "version": "vla-github-review-2026-09-23",
+  "description": "Short, auditable takeaways extracted from public VLA repositories. These are decision rules for the research router, not copied trajectory data.",
+  "projects": [
+    {
+      "id": "openvla",
+      "name": "OpenVLA",
+      "repo": "https://github.com/openvla/openvla",
+      "facts": [
+        "OpenVLA accepts arbitrary mixtures of RLDS datasets and supports Open X-Embodiment mixtures.",
+        "Its action prediction path must use the matching dataset unnormalization key before robot execution.",
+        "The repository provides LoRA, partial and full fine-tuning paths, plus a REST serving path.",
+        "The released 7B model was trained on a large Open X-Embodiment mixture and is evaluated on BridgeData V2 and LIBERO workflows."
+      ],
+      "decisions": ["keep an RLDS manifest", "verify action statistics and unnormalization key", "separate simulation and real-robot evaluation"]
+    },
+    {
+      "id": "lerobot",
+      "name": "LeRobot",
+      "repo": "https://github.com/huggingface/lerobot",
+      "facts": [
+        "The standard dataset flow records synchronized video together with action and robot state, plus a task instruction.",
+        "The same dataset contract is used by recording, training, evaluation and deployment tools.",
+        "A custom policy should expose configuration, model and pre/post processors so it can run through the common train/eval/rollout commands.",
+        "Reported benchmark results should include the suite, success rate, episode count, hardware and a reproducible evaluation command."
+      ],
+      "decisions": ["repair missing observation.state or task fields before training", "keep train/eval/rollout processors identical", "report episode counts with success rate"]
+    },
+    {
+      "id": "robotwin",
+      "name": "RoboTwin 2.0",
+      "repo": "https://github.com/RoboTwin-Platform/RoboTwin",
+      "facts": [
+        "RoboTwin 2.0 is a dual-arm manipulation data generator and benchmark with strong domain randomization.",
+        "The repository releases more than 100,000 pre-collected trajectories but recommends collecting with the chosen task and embodiment configuration.",
+        "Its research axes include single-task fine-tuning, visual robustness, language diversity, multi-task capability and cross-embodiment performance.",
+        "The platform distinguishes clean and randomized evaluation phases and reports task-level results."
+      ],
+      "decisions": ["keep clean and randomized evaluation separate", "record task and embodiment config with every trajectory", "test visual, language and embodiment shifts independently"]
+    },
+    {
+      "id": "libero",
+      "name": "LIBERO",
+      "repo": "https://github.com/Lifelong-Robot-Learning/LIBERO",
+      "facts": [
+        "LIBERO provides 130 tasks in Spatial, Object, Goal and LIBERO-100 suites with controlled and entangled distribution shifts.",
+        "LIBERO-100 is split into LIBERO-90 for policy pretraining and LIBERO-10 for downstream lifelong-learning testing.",
+        "The repository supports separate training and evaluation scripts when GPU resources are limited.",
+        "The benchmark focuses on knowledge transfer and reports learning and success behavior over task sequences, not one pooled random split."
+      ],
+      "decisions": ["hold out the downstream suite before training", "choose a suite that matches the claimed transfer axis", "preserve task order and seed in the evaluation manifest"]
+    },
+    {
+      "id": "octo",
+      "name": "Octo",
+      "repo": "https://github.com/octo-models/octo",
+      "facts": [
+        "Octo is pretrained on a diverse mixture of about 800,000 robot trajectories from Open X-Embodiment.",
+        "It supports language or goal-image conditioning, multiple cameras, observation history and different action spaces.",
+        "The repository exposes head-only, head-plus-MLP and full fine-tuning modes for adapting a new robot setup.",
+        "The published adaptation studies use small target-domain datasets and test new observations, actions and embodiments."
+      ],
+      "decisions": ["start with a small adaptation mode when target data is limited", "declare the new observation and action spaces", "compare against training from scratch"]
+    },
+    {
+      "id": "openpi",
+      "name": "openpi / Pi0",
+      "repo": "https://github.com/Physical-Intelligence/openpi",
+      "facts": [
+        "The repository contains flow-based Pi0 and autoregressive Pi0-FAST models pretrained on more than 10,000 hours of robot data.",
+        "The README estimates more than 22.5 GB for LoRA fine-tuning and more than 70 GB for full fine-tuning on a single GPU.",
+        "The training configs use LeRobot-style data and expose worker, device and batch settings.",
+        "Normalization statistics should be consciously reloaded or recomputed on the target data and compared in an experiment."
+      ],
+      "decisions": ["select LoRA when the GPU budget cannot hold full fine-tuning", "record the normalization-statistics choice", "keep an explicit target-data config"]
+    },
+    {
+      "id": "openx",
+      "name": "Open X-Embodiment",
+      "repo": "https://github.com/google-deepmind/open_x_embodiment",
+      "facts": [
+        "Open X-Embodiment standardizes many robot datasets as RLDS episode sequences.",
+        "Its basic RT-X observation path pairs an RGB workspace image with a task string.",
+        "The collection spans many robots, skills and institutions, so robot embodiment and label coverage must be retained in metadata.",
+        "A mixture is useful only when observation, action and language fields are mapped consistently."
+      ],
+      "decisions": ["keep source and embodiment identifiers", "audit missing language and sensor fields before mixing", "evaluate cross-embodiment transfer separately"]
+    }
+  ]
+}
